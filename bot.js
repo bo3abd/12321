@@ -8249,3 +8249,5 @@ message.member.removeRole(message.guild.roles.find("name", "100"));
 
 
 
+// THIS  MUST  BE  THIS  WAY
+client.login(process.env.BOT_TOKEN);
