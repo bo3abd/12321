@@ -319,11 +319,11 @@ client.on('message', message => {
     if (message.member.voiceChannel) {
       message.member.voiceChannel.join()
         .then(connection => { // Connection is an instance of VoiceConnection
-          message.reply(':ok:');
+          message.reply('تم دخول الروم');
         })
         .catch(console.log);
     } else {
-      message.reply('no ');
+      message.reply('يجب ان تكون في رومات صوتية');
     }
   }
 });
