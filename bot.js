@@ -417,7 +417,7 @@ message.channel.send({embed:embed});
 
 
   client.on('message', message => {
-   if(message.content.startsWith("^دعوات")) {
+   if(message.content.startsWith("#دعوات")) {
     message.guild.fetchInvites().then(invs => {
       let user = message.mentions.users.first() || message.author
       let personalInvites = invs.filter(i => i.inviter.id === user.id);
