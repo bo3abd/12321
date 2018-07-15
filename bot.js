@@ -32,6 +32,7 @@ message.author.send(`**مدة الرابط : يـوم
 });
 
 
+///////////////////////////////////////
 
 
 
@@ -53,6 +54,18 @@ message.author.send(`**مدة الرابط : يـوم
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////
 client.on('ready', () => {
     console.log(`Logged in as ${client.user.tag}!`);
     console.log(`in ${client.guilds.size} servers `)
@@ -61,7 +74,7 @@ console.log(`[M] ${client.users.size}`)
 });
 
 
-const prefix = "A"
+const prefix = "5"
 client.on('message', async msg => { // eslint-disable-line
 	if (msg.author.bot) return undefined;
 	if (!msg.content.startsWith(prefix)) return undefined;
