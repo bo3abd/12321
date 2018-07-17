@@ -9,9 +9,21 @@ const queue = new Map();
 const client = new Discord.Client();
 ///////////////////////////
 
+  client.on('message', msg => {//msg
+    if (msg.content === 'الوان') {
+      msg.channel.send({file : "https://cdn.discordapp.com/attachments/456691922300436485/468904404565753877/colors.png"})
+    }
+  });;
+  
 
 
 
+
+
+
+
+
+///////////////////////////
 client.on('message', message => {
                     var prefix = "#";
 
