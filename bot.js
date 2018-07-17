@@ -115,6 +115,2347 @@ client.on('message', async message => {
 
 
 
+var x1 = "#color 1"
+var x2 = "#color 2"
+var x3 = "#color 3"
+var x4 = "#color 4"
+var x5 = "#color 5"
+var x6 = "#color 6"
+var x7 = "#color 7"
+var x8 = "#color 8"
+var x9 = "#color 9"
+var x10 = "#color 10"
+var x11 = "#color 11"
+var x12 = "#color 12"
+var x13 = "#color 13"
+var x14 = "#color 14"
+var x15 = "#color 15"
+var x16 = "#color 16"
+var x17 = "#color 17"
+var x18 = "#color 18"
+var x19 = "#color 19"
+var x20 = "#color 20"
+var x21 = "#color 21"
+var x22 = "#color 22"
+var x23 = "#color 23"
+var x24 = "#color 24"
+var x25 = "#color 25"
+var x26 = "#color 26"
+var x27 = "#color 27"
+var x28 = "#color 28"
+var x29 = "#color 29"
+var x30 = "#color 30"
+var x31 = "#color 31"
+var x32 = "#color 32"
+var x33 = "#color 33"
+var x34 = "#color 34"
+var x35 = "#color 35"
+var x36 = "#color 36"
+var x37 = "#color 37"
+var x38 = "#color 38"
+var x39 = "#color 39"
+var x40 = "#color 40"
+var x41 = "#color 41"
+var x42 = "#color 42"
+var x43 = "#color 43"
+var x44 = "#color 44"
+
+
+client.on('message', message => {
+	if (message.content === x1) {
+	    if(!message.channel.guild) return;
+		message.member.addRole(message.guild.roles.find("name", "1"));
+    message.member.removeRole(message.guild.roles.find("name", "2"));
+    message.member.removeRole(message.guild.roles.find("name", "3"));
+    message.member.removeRole(message.guild.roles.find("name", "4"));
+    message.member.removeRole(message.guild.roles.find("name", "5"));
+    message.member.removeRole(message.guild.roles.find("name", "6"));
+    message.member.removeRole(message.guild.roles.find("name", "7"));
+    message.member.removeRole(message.guild.roles.find("name", "8"));
+    message.member.removeRole(message.guild.roles.find("name", "9"));
+    message.member.removeRole(message.guild.roles.find("name", "10"));
+	message.member.removeRole(message.guild.roles.find("name", "11"));
+	message.member.removeRole(message.guild.roles.find("name", "12"));
+	message.member.removeRole(message.guild.roles.find("name", "13"));
+	message.member.removeRole(message.guild.roles.find("name", "14"));
+	message.member.removeRole(message.guild.roles.find("name", "15"));
+	message.member.removeRole(message.guild.roles.find("name", "16"));
+	message.member.removeRole(message.guild.roles.find("name", "17"));
+	message.member.removeRole(message.guild.roles.find("name", "18"));
+	message.member.removeRole(message.guild.roles.find("name", "19"));
+	message.member.removeRole(message.guild.roles.find("name", "20"));
+	message.member.removeRole(message.guild.roles.find("name", "21"));
+	message.member.removeRole(message.guild.roles.find("name", "22"));
+	message.member.removeRole(message.guild.roles.find("name", "23"));
+	message.member.removeRole(message.guild.roles.find("name", "24"));
+	message.member.removeRole(message.guild.roles.find("name", "25"));
+	message.member.removeRole(message.guild.roles.find("name", "26"));
+	message.member.removeRole(message.guild.roles.find("name", "27"));
+	message.member.removeRole(message.guild.roles.find("name", "28"));
+	message.member.removeRole(message.guild.roles.find("name", "29"));
+	message.member.removeRole(message.guild.roles.find("name", "30"));
+	message.member.removeRole(message.guild.roles.find("name", "31"));
+	message.member.removeRole(message.guild.roles.find("name", "32"));
+message.member.removeRole(message.guild.roles.find("name", "33"));
+message.member.removeRole(message.guild.roles.find("name", "34"));
+message.member.removeRole(message.guild.roles.find("name", "35"));
+message.member.removeRole(message.guild.roles.find("name", "36"));
+message.member.removeRole(message.guild.roles.find("name", "37"));
+message.member.removeRole(message.guild.roles.find("name", "38"));
+message.member.removeRole(message.guild.roles.find("name", "39"));
+message.member.removeRole(message.guild.roles.find("name", "40"));
+message.member.removeRole(message.guild.roles.find("name", "41"));
+message.member.removeRole(message.guild.roles.find("name", "42"));
+message.member.removeRole(message.guild.roles.find("name", "43"));
+message.member.removeRole(message.guild.roles.find("name", "44"));
+
+	const embed = new Discord.RichEmbed()
+ 	.setFooter('Requested by '+message.author.username, message.author.avatarURL)
+   .setDescription(`تم تغير اللون بنجاح`)
+  message.channel.sendEmbed(embed);
+	}
+
+if (message.content === x2) {
+    if(!message.channel.guild) return;
+		message.member.removeRole(message.guild.roles.find("name", "1"));
+    message.member.addRole(message.guild.roles.find("name", "2"));
+    message.member.removeRole(message.guild.roles.find("name", "3"));
+    message.member.removeRole(message.guild.roles.find("name", "4"));
+    message.member.removeRole(message.guild.roles.find("name", "5"));
+    message.member.removeRole(message.guild.roles.find("name", "6"));
+    message.member.removeRole(message.guild.roles.find("name", "7"));
+    message.member.removeRole(message.guild.roles.find("name", "8"));
+    message.member.removeRole(message.guild.roles.find("name", "9"));
+    message.member.removeRole(message.guild.roles.find("name", "10"));
+		message.member.removeRole(message.guild.roles.find("name", "11"));
+	message.member.removeRole(message.guild.roles.find("name", "12"));
+	message.member.removeRole(message.guild.roles.find("name", "13"));
+	message.member.removeRole(message.guild.roles.find("name", "14"));
+	message.member.removeRole(message.guild.roles.find("name", "15"));
+	message.member.removeRole(message.guild.roles.find("name", "16"));
+	message.member.removeRole(message.guild.roles.find("name", "17"));
+	message.member.removeRole(message.guild.roles.find("name", "18"));
+	message.member.removeRole(message.guild.roles.find("name", "19"));
+	message.member.removeRole(message.guild.roles.find("name", "20"));
+	message.member.removeRole(message.guild.roles.find("name", "21"));
+	message.member.removeRole(message.guild.roles.find("name", "22"));
+	message.member.removeRole(message.guild.roles.find("name", "23"));
+	message.member.removeRole(message.guild.roles.find("name", "24"));
+	message.member.removeRole(message.guild.roles.find("name", "25"));
+	message.member.removeRole(message.guild.roles.find("name", "26"));
+	message.member.removeRole(message.guild.roles.find("name", "27"));
+	message.member.removeRole(message.guild.roles.find("name", "28"));
+	message.member.removeRole(message.guild.roles.find("name", "29"));
+	message.member.removeRole(message.guild.roles.find("name", "30"));
+	message.member.removeRole(message.guild.roles.find("name", "31"));
+	message.member.removeRole(message.guild.roles.find("name", "32"));
+message.member.removeRole(message.guild.roles.find("name", "33"));
+message.member.removeRole(message.guild.roles.find("name", "34"));
+message.member.removeRole(message.guild.roles.find("name", "35"));
+message.member.removeRole(message.guild.roles.find("name", "36"));
+message.member.removeRole(message.guild.roles.find("name", "37"));
+message.member.removeRole(message.guild.roles.find("name", "38"));
+message.member.removeRole(message.guild.roles.find("name", "39"));
+message.member.removeRole(message.guild.roles.find("name", "40"));
+message.member.removeRole(message.guild.roles.find("name", "41"));
+message.member.removeRole(message.guild.roles.find("name", "42"));
+message.member.removeRole(message.guild.roles.find("name", "43"));
+message.member.removeRole(message.guild.roles.find("name", "44"));
+	const embed = new Discord.RichEmbed()
+ 	.setFooter('Requested by '+message.author.username, message.author.avatarURL)
+   .setDescription(`تم تغير اللون بنجاح`)
+  message.channel.sendEmbed(embed);
+	}
+if (message.content === x3) {
+    if(!message.channel.guild) return;
+		message.member.removeRole(message.guild.roles.find("name", "1"));
+    message.member.removeRole(message.guild.roles.find("name", "2"));
+    message.member.addRole(message.guild.roles.find("name", "3"));
+    message.member.removeRole(message.guild.roles.find("name", "4"));
+    message.member.removeRole(message.guild.roles.find("name", "5"));
+    message.member.removeRole(message.guild.roles.find("name", "6"));
+    message.member.removeRole(message.guild.roles.find("name", "7"));
+    message.member.removeRole(message.guild.roles.find("name", "8"));
+    message.member.removeRole(message.guild.roles.find("name", "9"));
+    message.member.removeRole(message.guild.roles.find("name", "10"));
+		message.member.removeRole(message.guild.roles.find("name", "11"));
+	message.member.removeRole(message.guild.roles.find("name", "12"));
+	message.member.removeRole(message.guild.roles.find("name", "13"));
+	message.member.removeRole(message.guild.roles.find("name", "14"));
+	message.member.removeRole(message.guild.roles.find("name", "15"));
+	message.member.removeRole(message.guild.roles.find("name", "16"));
+	message.member.removeRole(message.guild.roles.find("name", "17"));
+	message.member.removeRole(message.guild.roles.find("name", "18"));
+	message.member.removeRole(message.guild.roles.find("name", "19"));
+	message.member.removeRole(message.guild.roles.find("name", "20"));
+	message.member.removeRole(message.guild.roles.find("name", "21"));
+	message.member.removeRole(message.guild.roles.find("name", "22"));
+	message.member.removeRole(message.guild.roles.find("name", "23"));
+	message.member.removeRole(message.guild.roles.find("name", "24"));
+	message.member.removeRole(message.guild.roles.find("name", "25"));
+	message.member.removeRole(message.guild.roles.find("name", "26"));
+	message.member.removeRole(message.guild.roles.find("name", "27"));
+	message.member.removeRole(message.guild.roles.find("name", "28"));
+	message.member.removeRole(message.guild.roles.find("name", "29"));
+	message.member.removeRole(message.guild.roles.find("name", "30"));
+	message.member.removeRole(message.guild.roles.find("name", "31"));
+	message.member.removeRole(message.guild.roles.find("name", "32"));
+message.member.removeRole(message.guild.roles.find("name", "33"));
+message.member.removeRole(message.guild.roles.find("name", "34"));
+message.member.removeRole(message.guild.roles.find("name", "35"));
+message.member.removeRole(message.guild.roles.find("name", "36"));
+message.member.removeRole(message.guild.roles.find("name", "37"));
+message.member.removeRole(message.guild.roles.find("name", "38"));
+message.member.removeRole(message.guild.roles.find("name", "39"));
+message.member.removeRole(message.guild.roles.find("name", "40"));
+message.member.removeRole(message.guild.roles.find("name", "41"));
+message.member.removeRole(message.guild.roles.find("name", "42"));
+message.member.removeRole(message.guild.roles.find("name", "43"));
+message.member.removeRole(message.guild.roles.find("name", "44"));
+	const embed = new Discord.RichEmbed()
+ 	.setFooter('Requested by '+message.author.username, message.author.avatarURL)
+   .setDescription(`تم تغير اللون بنجاح`)
+  message.channel.sendEmbed(embed);
+	}
+if (message.content === x4) {
+    if(!message.channel.guild) return;
+		message.member.removeRole(message.guild.roles.find("name", "1"));
+    message.member.removeRole(message.guild.roles.find("name", "2"));
+    message.member.removeRole(message.guild.roles.find("name", "3"));
+    message.member.addRole(message.guild.roles.find("name", "4"));
+    message.member.removeRole(message.guild.roles.find("name", "5"));
+    message.member.removeRole(message.guild.roles.find("name", "6"));
+    message.member.removeRole(message.guild.roles.find("name", "7"));
+    message.member.removeRole(message.guild.roles.find("name", "8"));
+    message.member.removeRole(message.guild.roles.find("name", "9"));
+    message.member.removeRole(message.guild.roles.find("name", "10"));
+		message.member.removeRole(message.guild.roles.find("name", "11"));
+	message.member.removeRole(message.guild.roles.find("name", "12"));
+	message.member.removeRole(message.guild.roles.find("name", "13"));
+	message.member.removeRole(message.guild.roles.find("name", "14"));
+	message.member.removeRole(message.guild.roles.find("name", "15"));
+	message.member.removeRole(message.guild.roles.find("name", "16"));
+	message.member.removeRole(message.guild.roles.find("name", "17"));
+	message.member.removeRole(message.guild.roles.find("name", "18"));
+	message.member.removeRole(message.guild.roles.find("name", "19"));
+	message.member.removeRole(message.guild.roles.find("name", "20"));
+	message.member.removeRole(message.guild.roles.find("name", "21"));
+	message.member.removeRole(message.guild.roles.find("name", "22"));
+	message.member.removeRole(message.guild.roles.find("name", "23"));
+	message.member.removeRole(message.guild.roles.find("name", "24"));
+	message.member.removeRole(message.guild.roles.find("name", "25"));
+	message.member.removeRole(message.guild.roles.find("name", "26"));
+	message.member.removeRole(message.guild.roles.find("name", "27"));
+	message.member.removeRole(message.guild.roles.find("name", "28"));
+	message.member.removeRole(message.guild.roles.find("name", "29"));
+	message.member.removeRole(message.guild.roles.find("name", "30"));
+	message.member.removeRole(message.guild.roles.find("name", "31"));
+	message.member.removeRole(message.guild.roles.find("name", "32"));
+message.member.removeRole(message.guild.roles.find("name", "33"));
+message.member.removeRole(message.guild.roles.find("name", "34"));
+message.member.removeRole(message.guild.roles.find("name", "35"));
+message.member.removeRole(message.guild.roles.find("name", "36"));
+message.member.removeRole(message.guild.roles.find("name", "37"));
+message.member.removeRole(message.guild.roles.find("name", "38"));
+message.member.removeRole(message.guild.roles.find("name", "39"));
+message.member.removeRole(message.guild.roles.find("name", "40"));
+message.member.removeRole(message.guild.roles.find("name", "41"));
+message.member.removeRole(message.guild.roles.find("name", "42"));
+message.member.removeRole(message.guild.roles.find("name", "43"));
+message.member.removeRole(message.guild.roles.find("name", "44"));
+	const embed = new Discord.RichEmbed()
+ 	.setFooter('Requested by '+message.author.username, message.author.avatarURL)
+   .setDescription(`تم تغير اللون بنجاح`)
+  message.channel.sendEmbed(embed);
+	}
+if (message.content === x5) {
+    if(!message.channel.guild) return;
+		message.member.removeRole(message.guild.roles.find("name", "1"));
+    message.member.removeRole(message.guild.roles.find("name", "2"));
+    message.member.removeRole(message.guild.roles.find("name", "3"));
+    message.member.removeRole(message.guild.roles.find("name", "4"));
+    message.member.addRole(message.guild.roles.find("name", "5"));
+    message.member.removeRole(message.guild.roles.find("name", "6"));
+    message.member.removeRole(message.guild.roles.find("name", "7"));
+    message.member.removeRole(message.guild.roles.find("name", "8"));
+    message.member.removeRole(message.guild.roles.find("name", "9"));
+    message.member.removeRole(message.guild.roles.find("name", "10"));
+		message.member.removeRole(message.guild.roles.find("name", "11"));
+	message.member.removeRole(message.guild.roles.find("name", "12"));
+	message.member.removeRole(message.guild.roles.find("name", "13"));
+	message.member.removeRole(message.guild.roles.find("name", "14"));
+	message.member.removeRole(message.guild.roles.find("name", "15"));
+	message.member.removeRole(message.guild.roles.find("name", "16"));
+	message.member.removeRole(message.guild.roles.find("name", "17"));
+	message.member.removeRole(message.guild.roles.find("name", "18"));
+	message.member.removeRole(message.guild.roles.find("name", "19"));
+	message.member.removeRole(message.guild.roles.find("name", "20"));
+	message.member.removeRole(message.guild.roles.find("name", "21"));
+	message.member.removeRole(message.guild.roles.find("name", "22"));
+	message.member.removeRole(message.guild.roles.find("name", "23"));
+	message.member.removeRole(message.guild.roles.find("name", "24"));
+	message.member.removeRole(message.guild.roles.find("name", "25"));
+	message.member.removeRole(message.guild.roles.find("name", "26"));
+	message.member.removeRole(message.guild.roles.find("name", "27"));
+	message.member.removeRole(message.guild.roles.find("name", "28"));
+	message.member.removeRole(message.guild.roles.find("name", "29"));
+	message.member.removeRole(message.guild.roles.find("name", "30"));
+	message.member.removeRole(message.guild.roles.find("name", "31"));
+	message.member.removeRole(message.guild.roles.find("name", "32"));
+message.member.removeRole(message.guild.roles.find("name", "33"));
+message.member.removeRole(message.guild.roles.find("name", "34"));
+message.member.removeRole(message.guild.roles.find("name", "35"));
+message.member.removeRole(message.guild.roles.find("name", "36"));
+message.member.removeRole(message.guild.roles.find("name", "37"));
+message.member.removeRole(message.guild.roles.find("name", "38"));
+message.member.removeRole(message.guild.roles.find("name", "39"));
+message.member.removeRole(message.guild.roles.find("name", "40"));
+message.member.removeRole(message.guild.roles.find("name", "41"));
+message.member.removeRole(message.guild.roles.find("name", "42"));
+message.member.removeRole(message.guild.roles.find("name", "43"));
+message.member.removeRole(message.guild.roles.find("name", "44"));
+
+	const embed = new Discord.RichEmbed()
+ 	.setFooter('Requested by '+message.author.username, message.author.avatarURL)
+   .setDescription(`تم تغير اللون بنجاح`)
+  message.channel.sendEmbed(embed);
+	}
+if (message.content === x6) {
+    if(!message.channel.guild) return;
+		message.member.removeRole(message.guild.roles.find("name", "1"));
+    message.member.removeRole(message.guild.roles.find("name", "2"));
+    message.member.removeRole(message.guild.roles.find("name", "3"));
+    message.member.removeRole(message.guild.roles.find("name", "4"));
+    message.member.removeRole(message.guild.roles.find("name", "5"));
+    message.member.addRole(message.guild.roles.find("name", "6"));
+    message.member.removeRole(message.guild.roles.find("name", "7"));
+    message.member.removeRole(message.guild.roles.find("name", "8"));
+    message.member.removeRole(message.guild.roles.find("name", "9"));
+    message.member.removeRole(message.guild.roles.find("name", "10"));
+		message.member.removeRole(message.guild.roles.find("name", "11"));
+	message.member.removeRole(message.guild.roles.find("name", "12"));
+	message.member.removeRole(message.guild.roles.find("name", "13"));
+	message.member.removeRole(message.guild.roles.find("name", "14"));
+	message.member.removeRole(message.guild.roles.find("name", "15"));
+	message.member.removeRole(message.guild.roles.find("name", "16"));
+	message.member.removeRole(message.guild.roles.find("name", "17"));
+	message.member.removeRole(message.guild.roles.find("name", "18"));
+	message.member.removeRole(message.guild.roles.find("name", "19"));
+	message.member.removeRole(message.guild.roles.find("name", "20"));
+	message.member.removeRole(message.guild.roles.find("name", "21"));
+	message.member.removeRole(message.guild.roles.find("name", "22"));
+	message.member.removeRole(message.guild.roles.find("name", "23"));
+	message.member.removeRole(message.guild.roles.find("name", "24"));
+	message.member.removeRole(message.guild.roles.find("name", "25"));
+	message.member.removeRole(message.guild.roles.find("name", "26"));
+	message.member.removeRole(message.guild.roles.find("name", "27"));
+	message.member.removeRole(message.guild.roles.find("name", "28"));
+	message.member.removeRole(message.guild.roles.find("name", "29"));
+	message.member.removeRole(message.guild.roles.find("name", "30"));
+	message.member.removeRole(message.guild.roles.find("name", "31"));
+	message.member.removeRole(message.guild.roles.find("name", "32"));
+message.member.removeRole(message.guild.roles.find("name", "33"));
+message.member.removeRole(message.guild.roles.find("name", "34"));
+message.member.removeRole(message.guild.roles.find("name", "35"));
+message.member.removeRole(message.guild.roles.find("name", "36"));
+message.member.removeRole(message.guild.roles.find("name", "37"));
+message.member.removeRole(message.guild.roles.find("name", "38"));
+message.member.removeRole(message.guild.roles.find("name", "39"));
+message.member.removeRole(message.guild.roles.find("name", "40"));
+message.member.removeRole(message.guild.roles.find("name", "41"));
+message.member.removeRole(message.guild.roles.find("name", "42"));
+message.member.removeRole(message.guild.roles.find("name", "43"));
+message.member.removeRole(message.guild.roles.find("name", "44"));
+	const embed = new Discord.RichEmbed()
+ 	.setFooter('Requested by '+message.author.username, message.author.avatarURL)
+   .setDescription(`تم تغير اللون بنجاح`)
+  message.channel.sendEmbed(embed);
+	}
+if (message.content === x7) {
+    if(!message.channel.guild) return;
+		message.member.removeRole(message.guild.roles.find("name", "1"));
+    message.member.removeRole(message.guild.roles.find("name", "2"));
+    message.member.removeRole(message.guild.roles.find("name", "3"));
+    message.member.removeRole(message.guild.roles.find("name", "4"));
+    message.member.removeRole(message.guild.roles.find("name", "5"));
+    message.member.removeRole(message.guild.roles.find("name", "6"));
+    message.member.addRole(message.guild.roles.find("name", "7"));
+    message.member.removeRole(message.guild.roles.find("name", "8"));
+    message.member.removeRole(message.guild.roles.find("name", "9"));
+    message.member.removeRole(message.guild.roles.find("name", "10"));
+		message.member.removeRole(message.guild.roles.find("name", "11"));
+	message.member.removeRole(message.guild.roles.find("name", "12"));
+	message.member.removeRole(message.guild.roles.find("name", "13"));
+	message.member.removeRole(message.guild.roles.find("name", "14"));
+	message.member.removeRole(message.guild.roles.find("name", "15"));
+	message.member.removeRole(message.guild.roles.find("name", "16"));
+	message.member.removeRole(message.guild.roles.find("name", "17"));
+	message.member.removeRole(message.guild.roles.find("name", "18"));
+	message.member.removeRole(message.guild.roles.find("name", "19"));
+	message.member.removeRole(message.guild.roles.find("name", "20"));
+	message.member.removeRole(message.guild.roles.find("name", "21"));
+	message.member.removeRole(message.guild.roles.find("name", "22"));
+	message.member.removeRole(message.guild.roles.find("name", "23"));
+	message.member.removeRole(message.guild.roles.find("name", "24"));
+	message.member.removeRole(message.guild.roles.find("name", "25"));
+	message.member.removeRole(message.guild.roles.find("name", "26"));
+	message.member.removeRole(message.guild.roles.find("name", "27"));
+	message.member.removeRole(message.guild.roles.find("name", "28"));
+	message.member.removeRole(message.guild.roles.find("name", "29"));
+	message.member.removeRole(message.guild.roles.find("name", "30"));
+	message.member.removeRole(message.guild.roles.find("name", "31"));
+	message.member.removeRole(message.guild.roles.find("name", "32"));
+message.member.removeRole(message.guild.roles.find("name", "33"));
+message.member.removeRole(message.guild.roles.find("name", "34"));
+message.member.removeRole(message.guild.roles.find("name", "35"));
+message.member.removeRole(message.guild.roles.find("name", "36"));
+message.member.removeRole(message.guild.roles.find("name", "37"));
+message.member.removeRole(message.guild.roles.find("name", "38"));
+message.member.removeRole(message.guild.roles.find("name", "39"));
+message.member.removeRole(message.guild.roles.find("name", "40"));
+message.member.removeRole(message.guild.roles.find("name", "41"));
+message.member.removeRole(message.guild.roles.find("name", "42"));
+message.member.removeRole(message.guild.roles.find("name", "43"));
+message.member.removeRole(message.guild.roles.find("name", "44"));
+	const embed = new Discord.RichEmbed()
+ 	.setFooter('Requested by '+message.author.username, message.author.avatarURL)
+   .setDescription(`تم تغير اللون بنجاح`)
+  message.channel.sendEmbed(embed);
+	}
+if (message.content === x8) {
+    if(!message.channel.guild) return;
+		message.member.removeRole(message.guild.roles.find("name", "1"));
+    message.member.removeRole(message.guild.roles.find("name", "2"));
+    message.member.removeRole(message.guild.roles.find("name", "3"));
+    message.member.removeRole(message.guild.roles.find("name", "4"));
+    message.member.removeRole(message.guild.roles.find("name", "5"));
+    message.member.removeRole(message.guild.roles.find("name", "6"));
+    message.member.removeRole(message.guild.roles.find("name", "7"));
+    message.member.addRole(message.guild.roles.find("name", "8"));
+    message.member.removeRole(message.guild.roles.find("name", "9"));
+    message.member.removeRole(message.guild.roles.find("name", "10"));
+		message.member.removeRole(message.guild.roles.find("name", "11"));
+	message.member.removeRole(message.guild.roles.find("name", "12"));
+	message.member.removeRole(message.guild.roles.find("name", "13"));
+	message.member.removeRole(message.guild.roles.find("name", "14"));
+	message.member.removeRole(message.guild.roles.find("name", "15"));
+	message.member.removeRole(message.guild.roles.find("name", "16"));
+	message.member.removeRole(message.guild.roles.find("name", "17"));
+	message.member.removeRole(message.guild.roles.find("name", "18"));
+	message.member.removeRole(message.guild.roles.find("name", "19"));
+	message.member.removeRole(message.guild.roles.find("name", "20"));
+	message.member.removeRole(message.guild.roles.find("name", "21"));
+	message.member.removeRole(message.guild.roles.find("name", "22"));
+	message.member.removeRole(message.guild.roles.find("name", "23"));
+	message.member.removeRole(message.guild.roles.find("name", "24"));
+	message.member.removeRole(message.guild.roles.find("name", "25"));
+	message.member.removeRole(message.guild.roles.find("name", "26"));
+	message.member.removeRole(message.guild.roles.find("name", "27"));
+	message.member.removeRole(message.guild.roles.find("name", "28"));
+	message.member.removeRole(message.guild.roles.find("name", "29"));
+	message.member.removeRole(message.guild.roles.find("name", "30"));
+	message.member.removeRole(message.guild.roles.find("name", "31"));
+	message.member.removeRole(message.guild.roles.find("name", "32"));
+message.member.removeRole(message.guild.roles.find("name", "33"));
+message.member.removeRole(message.guild.roles.find("name", "34"));
+message.member.removeRole(message.guild.roles.find("name", "35"));
+message.member.removeRole(message.guild.roles.find("name", "36"));
+message.member.removeRole(message.guild.roles.find("name", "37"));
+message.member.removeRole(message.guild.roles.find("name", "38"));
+message.member.removeRole(message.guild.roles.find("name", "39"));
+message.member.removeRole(message.guild.roles.find("name", "40"));
+message.member.removeRole(message.guild.roles.find("name", "41"));
+message.member.removeRole(message.guild.roles.find("name", "42"));
+message.member.removeRole(message.guild.roles.find("name", "43"));
+message.member.removeRole(message.guild.roles.find("name", "44"));
+	const embed = new Discord.RichEmbed()
+ 	.setFooter('Requested by '+message.author.username, message.author.avatarURL)
+   .setDescription(`تم تغير اللون بنجاح`)
+  message.channel.sendEmbed(embed);
+	}
+if (message.content === x9) {
+    if(!message.channel.guild) return;
+		message.member.removeRole(message.guild.roles.find("name", "1"));
+    message.member.removeRole(message.guild.roles.find("name", "2"));
+    message.member.removeRole(message.guild.roles.find("name", "3"));
+    message.member.removeRole(message.guild.roles.find("name", "4"));
+    message.member.removeRole(message.guild.roles.find("name", "5"));
+    message.member.removeRole(message.guild.roles.find("name", "6"));
+    message.member.removeRole(message.guild.roles.find("name", "7"));
+    message.member.removeRole(message.guild.roles.find("name", "8"));
+    message.member.addRole(message.guild.roles.find("name", "9"));
+    message.member.removeRole(message.guild.roles.find("name", "10"));
+		message.member.removeRole(message.guild.roles.find("name", "11"));
+	message.member.removeRole(message.guild.roles.find("name", "12"));
+	message.member.removeRole(message.guild.roles.find("name", "13"));
+	message.member.removeRole(message.guild.roles.find("name", "14"));
+	message.member.removeRole(message.guild.roles.find("name", "15"));
+	message.member.removeRole(message.guild.roles.find("name", "16"));
+	message.member.removeRole(message.guild.roles.find("name", "17"));
+	message.member.removeRole(message.guild.roles.find("name", "18"));
+	message.member.removeRole(message.guild.roles.find("name", "19"));
+	message.member.removeRole(message.guild.roles.find("name", "20"));
+	message.member.removeRole(message.guild.roles.find("name", "21"));
+	message.member.removeRole(message.guild.roles.find("name", "22"));
+	message.member.removeRole(message.guild.roles.find("name", "23"));
+	message.member.removeRole(message.guild.roles.find("name", "24"));
+	message.member.removeRole(message.guild.roles.find("name", "25"));
+	message.member.removeRole(message.guild.roles.find("name", "26"));
+	message.member.removeRole(message.guild.roles.find("name", "27"));
+	message.member.removeRole(message.guild.roles.find("name", "28"));
+	message.member.removeRole(message.guild.roles.find("name", "29"));
+	message.member.removeRole(message.guild.roles.find("name", "30"));
+	message.member.removeRole(message.guild.roles.find("name", "31"));
+	message.member.removeRole(message.guild.roles.find("name", "32"));
+message.member.removeRole(message.guild.roles.find("name", "33"));
+message.member.removeRole(message.guild.roles.find("name", "34"));
+message.member.removeRole(message.guild.roles.find("name", "35"));
+message.member.removeRole(message.guild.roles.find("name", "36"));
+message.member.removeRole(message.guild.roles.find("name", "37"));
+message.member.removeRole(message.guild.roles.find("name", "38"));
+message.member.removeRole(message.guild.roles.find("name", "39"));
+message.member.removeRole(message.guild.roles.find("name", "40"));
+message.member.removeRole(message.guild.roles.find("name", "41"));
+message.member.removeRole(message.guild.roles.find("name", "42"));
+message.member.removeRole(message.guild.roles.find("name", "43"));
+message.member.removeRole(message.guild.roles.find("name", "44"));
+	const embed = new Discord.RichEmbed()
+ 	.setFooter('Requested by '+message.author.username, message.author.avatarURL)
+   .setDescription(`تم تغير اللون بنجاح`)
+  message.channel.sendEmbed(embed);
+	}
+if (message.content === x10) {
+    if(!message.channel.guild) return;
+		message.member.removeRole(message.guild.roles.find("name", "1"));
+    message.member.removeRole(message.guild.roles.find("name", "2"));
+    message.member.removeRole(message.guild.roles.find("name", "3"));
+    message.member.removeRole(message.guild.roles.find("name", "4"));
+    message.member.removeRole(message.guild.roles.find("name", "5"));
+    message.member.removeRole(message.guild.roles.find("name", "6"));
+    message.member.removeRole(message.guild.roles.find("name", "7"));
+    message.member.removeRole(message.guild.roles.find("name", "8"));
+    message.member.removeRole(message.guild.roles.find("name", "9"));
+    message.member.addRole(message.guild.roles.find("name", "10"));
+		message.member.removeRole(message.guild.roles.find("name", "11"));
+	message.member.removeRole(message.guild.roles.find("name", "12"));
+	message.member.removeRole(message.guild.roles.find("name", "13"));
+	message.member.removeRole(message.guild.roles.find("name", "14"));
+	message.member.removeRole(message.guild.roles.find("name", "15"));
+	message.member.removeRole(message.guild.roles.find("name", "16"));
+	message.member.removeRole(message.guild.roles.find("name", "17"));
+	message.member.removeRole(message.guild.roles.find("name", "18"));
+	message.member.removeRole(message.guild.roles.find("name", "19"));
+	message.member.removeRole(message.guild.roles.find("name", "20"));
+	message.member.removeRole(message.guild.roles.find("name", "21"));
+	message.member.removeRole(message.guild.roles.find("name", "22"));
+	message.member.removeRole(message.guild.roles.find("name", "23"));
+	message.member.removeRole(message.guild.roles.find("name", "24"));
+	message.member.removeRole(message.guild.roles.find("name", "25"));
+	message.member.removeRole(message.guild.roles.find("name", "26"));
+	message.member.removeRole(message.guild.roles.find("name", "27"));
+	message.member.removeRole(message.guild.roles.find("name", "28"));
+	message.member.removeRole(message.guild.roles.find("name", "29"));
+	message.member.removeRole(message.guild.roles.find("name", "30"));
+	message.member.removeRole(message.guild.roles.find("name", "31"));
+	message.member.removeRole(message.guild.roles.find("name", "32"));
+message.member.removeRole(message.guild.roles.find("name", "33"));
+message.member.removeRole(message.guild.roles.find("name", "34"));
+message.member.removeRole(message.guild.roles.find("name", "35"));
+message.member.removeRole(message.guild.roles.find("name", "36"));
+message.member.removeRole(message.guild.roles.find("name", "37"));
+message.member.removeRole(message.guild.roles.find("name", "38"));
+message.member.removeRole(message.guild.roles.find("name", "39"));
+message.member.removeRole(message.guild.roles.find("name", "40"));
+message.member.removeRole(message.guild.roles.find("name", "41"));
+message.member.removeRole(message.guild.roles.find("name", "42"));
+message.member.removeRole(message.guild.roles.find("name", "43"));
+message.member.removeRole(message.guild.roles.find("name", "44"));
+	const embed = new Discord.RichEmbed()
+ 	.setFooter('Requested by '+message.author.username, message.author.avatarURL)
+   .setDescription(`تم تغير اللون بنجاح`)
+  message.channel.sendEmbed(embed);
+	}
+	
+	
+	if (message.content === x11) {
+    if(!message.channel.guild) return;
+		message.member.removeRole(message.guild.roles.find("name", "1"));
+    message.member.removeRole(message.guild.roles.find("name", "2"));
+    message.member.removeRole(message.guild.roles.find("name", "3"));
+    message.member.removeRole(message.guild.roles.find("name", "4"));
+    message.member.removeRole(message.guild.roles.find("name", "5"));
+    message.member.removeRole(message.guild.roles.find("name", "6"));
+    message.member.removeRole(message.guild.roles.find("name", "7"));
+    message.member.removeRole(message.guild.roles.find("name", "8"));
+    message.member.removeRole(message.guild.roles.find("name", "9"));
+message.member.removeRole(message.guild.roles.find("name", "10"));
+	message.member.addRole(message.guild.roles.find("name", "11"));
+	message.member.removeRole(message.guild.roles.find("name", "12"));
+	message.member.removeRole(message.guild.roles.find("name", "13"));
+	message.member.removeRole(message.guild.roles.find("name", "14"));
+	message.member.removeRole(message.guild.roles.find("name", "15"));
+	message.member.removeRole(message.guild.roles.find("name", "16"));
+	message.member.removeRole(message.guild.roles.find("name", "17"));
+	message.member.removeRole(message.guild.roles.find("name", "18"));
+	message.member.removeRole(message.guild.roles.find("name", "19"));
+	message.member.removeRole(message.guild.roles.find("name", "20"));
+	message.member.removeRole(message.guild.roles.find("name", "21"));
+	message.member.removeRole(message.guild.roles.find("name", "22"));
+	message.member.removeRole(message.guild.roles.find("name", "23"));
+	message.member.removeRole(message.guild.roles.find("name", "24"));
+	message.member.removeRole(message.guild.roles.find("name", "25"));
+	message.member.removeRole(message.guild.roles.find("name", "26"));
+	message.member.removeRole(message.guild.roles.find("name", "27"));
+	message.member.removeRole(message.guild.roles.find("name", "28"));
+	message.member.removeRole(message.guild.roles.find("name", "29"));
+	message.member.removeRole(message.guild.roles.find("name", "30"));
+	message.member.removeRole(message.guild.roles.find("name", "31"));
+	message.member.removeRole(message.guild.roles.find("name", "32"));
+message.member.removeRole(message.guild.roles.find("name", "33"));
+message.member.removeRole(message.guild.roles.find("name", "34"));
+message.member.removeRole(message.guild.roles.find("name", "35"));
+message.member.removeRole(message.guild.roles.find("name", "36"));
+message.member.removeRole(message.guild.roles.find("name", "37"));
+message.member.removeRole(message.guild.roles.find("name", "38"));
+message.member.removeRole(message.guild.roles.find("name", "39"));
+message.member.removeRole(message.guild.roles.find("name", "40"));
+message.member.removeRole(message.guild.roles.find("name", "41"));
+message.member.removeRole(message.guild.roles.find("name", "42"));
+message.member.removeRole(message.guild.roles.find("name", "43"));
+message.member.removeRole(message.guild.roles.find("name", "44"));
+	const embed = new Discord.RichEmbed()
+ 	.setFooter('Requested by '+message.author.username, message.author.avatarURL)
+   .setDescription(`تم تغير اللون بنجاح`)
+  message.channel.sendEmbed(embed);
+	}
+	
+	if (message.content === x12) {
+    if(!message.channel.guild) return;
+		message.member.removeRole(message.guild.roles.find("name", "1"));
+    message.member.removeRole(message.guild.roles.find("name", "2"));
+    message.member.removeRole(message.guild.roles.find("name", "3"));
+    message.member.removeRole(message.guild.roles.find("name", "4"));
+    message.member.removeRole(message.guild.roles.find("name", "5"));
+    message.member.removeRole(message.guild.roles.find("name", "6"));
+    message.member.removeRole(message.guild.roles.find("name", "7"));
+    message.member.removeRole(message.guild.roles.find("name", "8"));
+    message.member.removeRole(message.guild.roles.find("name", "9"));
+    message.member.removeRole(message.guild.roles.find("name", "10"));
+		message.member.removeRole(message.guild.roles.find("name", "11"));
+message.member.addRole(message.guild.roles.find("name", "12"));
+	message.member.removeRole(message.guild.roles.find("name", "13"));
+	message.member.removeRole(message.guild.roles.find("name", "14"));
+	message.member.removeRole(message.guild.roles.find("name", "15"));
+	message.member.removeRole(message.guild.roles.find("name", "16"));
+	message.member.removeRole(message.guild.roles.find("name", "17"));
+	message.member.removeRole(message.guild.roles.find("name", "18"));
+	message.member.removeRole(message.guild.roles.find("name", "19"));
+	message.member.removeRole(message.guild.roles.find("name", "20"));
+	message.member.removeRole(message.guild.roles.find("name", "21"));
+	message.member.removeRole(message.guild.roles.find("name", "22"));
+	message.member.removeRole(message.guild.roles.find("name", "23"));
+	message.member.removeRole(message.guild.roles.find("name", "24"));
+	message.member.removeRole(message.guild.roles.find("name", "25"));
+	message.member.removeRole(message.guild.roles.find("name", "26"));
+	message.member.removeRole(message.guild.roles.find("name", "27"));
+	message.member.removeRole(message.guild.roles.find("name", "28"));
+	message.member.removeRole(message.guild.roles.find("name", "29"));
+	message.member.removeRole(message.guild.roles.find("name", "30"));
+	message.member.removeRole(message.guild.roles.find("name", "31"));
+	message.member.removeRole(message.guild.roles.find("name", "32"));
+message.member.removeRole(message.guild.roles.find("name", "33"));
+message.member.removeRole(message.guild.roles.find("name", "34"));
+message.member.removeRole(message.guild.roles.find("name", "35"));
+message.member.removeRole(message.guild.roles.find("name", "36"));
+message.member.removeRole(message.guild.roles.find("name", "37"));
+message.member.removeRole(message.guild.roles.find("name", "38"));
+message.member.removeRole(message.guild.roles.find("name", "39"));
+message.member.removeRole(message.guild.roles.find("name", "40"));
+message.member.removeRole(message.guild.roles.find("name", "41"));
+message.member.removeRole(message.guild.roles.find("name", "42"));
+message.member.removeRole(message.guild.roles.find("name", "43"));
+message.member.removeRole(message.guild.roles.find("name", "44"));
+	const embed = new Discord.RichEmbed()
+ 	.setFooter('Requested by '+message.author.username, message.author.avatarURL)
+   .setDescription(`تم تغير اللون بنجاح`)
+  message.channel.sendEmbed(embed);
+	}
+	
+	if (message.content === x13) {
+    if(!message.channel.guild) return;
+		message.member.removeRole(message.guild.roles.find("name", "1"));
+    message.member.removeRole(message.guild.roles.find("name", "2"));
+    message.member.removeRole(message.guild.roles.find("name", "3"));
+    message.member.removeRole(message.guild.roles.find("name", "4"));
+    message.member.removeRole(message.guild.roles.find("name", "5"));
+    message.member.removeRole(message.guild.roles.find("name", "6"));
+    message.member.removeRole(message.guild.roles.find("name", "7"));
+    message.member.removeRole(message.guild.roles.find("name", "8"));
+    message.member.removeRole(message.guild.roles.find("name", "9"));
+    message.member.removeRole(message.guild.roles.find("name", "10"));
+		message.member.removeRole(message.guild.roles.find("name", "11"));
+	message.member.removeRole(message.guild.roles.find("name", "12"));
+message.member.addRole(message.guild.roles.find("name", "13"));
+	message.member.removeRole(message.guild.roles.find("name", "14"));
+	message.member.removeRole(message.guild.roles.find("name", "15"));
+	message.member.removeRole(message.guild.roles.find("name", "16"));
+	message.member.removeRole(message.guild.roles.find("name", "17"));
+	message.member.removeRole(message.guild.roles.find("name", "18"));
+	message.member.removeRole(message.guild.roles.find("name", "19"));
+	message.member.removeRole(message.guild.roles.find("name", "20"));
+	message.member.removeRole(message.guild.roles.find("name", "21"));
+	message.member.removeRole(message.guild.roles.find("name", "22"));
+	message.member.removeRole(message.guild.roles.find("name", "23"));
+	message.member.removeRole(message.guild.roles.find("name", "24"));
+	message.member.removeRole(message.guild.roles.find("name", "25"));
+	message.member.removeRole(message.guild.roles.find("name", "26"));
+	message.member.removeRole(message.guild.roles.find("name", "27"));
+	message.member.removeRole(message.guild.roles.find("name", "28"));
+	message.member.removeRole(message.guild.roles.find("name", "29"));
+	message.member.removeRole(message.guild.roles.find("name", "30"));
+	message.member.removeRole(message.guild.roles.find("name", "31"));
+	message.member.removeRole(message.guild.roles.find("name", "32"));
+message.member.removeRole(message.guild.roles.find("name", "33"));
+message.member.removeRole(message.guild.roles.find("name", "34"));
+message.member.removeRole(message.guild.roles.find("name", "35"));
+message.member.removeRole(message.guild.roles.find("name", "36"));
+message.member.removeRole(message.guild.roles.find("name", "37"));
+message.member.removeRole(message.guild.roles.find("name", "38"));
+message.member.removeRole(message.guild.roles.find("name", "39"));
+message.member.removeRole(message.guild.roles.find("name", "40"));
+message.member.removeRole(message.guild.roles.find("name", "41"));
+message.member.removeRole(message.guild.roles.find("name", "42"));
+message.member.removeRole(message.guild.roles.find("name", "43"));
+message.member.removeRole(message.guild.roles.find("name", "44"));
+	const embed = new Discord.RichEmbed()
+ 	.setFooter('Requested by '+message.author.username, message.author.avatarURL)
+   .setDescription(`تم تغير اللون بنجاح`)
+  message.channel.sendEmbed(embed);
+	}
+	
+	if (message.content === x14) {
+    if(!message.channel.guild) return;
+		message.member.removeRole(message.guild.roles.find("name", "1"));
+    message.member.removeRole(message.guild.roles.find("name", "2"));
+    message.member.removeRole(message.guild.roles.find("name", "3"));
+    message.member.removeRole(message.guild.roles.find("name", "4"));
+    message.member.removeRole(message.guild.roles.find("name", "5"));
+    message.member.removeRole(message.guild.roles.find("name", "6"));
+    message.member.removeRole(message.guild.roles.find("name", "7"));
+    message.member.removeRole(message.guild.roles.find("name", "8"));
+    message.member.removeRole(message.guild.roles.find("name", "9"));
+     message.member.removeRole(message.guild.roles.find("name", "10"));
+		message.member.removeRole(message.guild.roles.find("name", "11"));
+	message.member.removeRole(message.guild.roles.find("name", "12"));
+	message.member.removeRole(message.guild.roles.find("name", "13"));
+message.member.addRole(message.guild.roles.find("name", "14"));
+	message.member.removeRole(message.guild.roles.find("name", "15"));
+	message.member.removeRole(message.guild.roles.find("name", "16"));
+	message.member.removeRole(message.guild.roles.find("name", "17"));
+	message.member.removeRole(message.guild.roles.find("name", "18"));
+	message.member.removeRole(message.guild.roles.find("name", "19"));
+	message.member.removeRole(message.guild.roles.find("name", "20"));
+	message.member.removeRole(message.guild.roles.find("name", "21"));
+	message.member.removeRole(message.guild.roles.find("name", "22"));
+	message.member.removeRole(message.guild.roles.find("name", "23"));
+	message.member.removeRole(message.guild.roles.find("name", "24"));
+	message.member.removeRole(message.guild.roles.find("name", "25"));
+	message.member.removeRole(message.guild.roles.find("name", "26"));
+	message.member.removeRole(message.guild.roles.find("name", "27"));
+	message.member.removeRole(message.guild.roles.find("name", "28"));
+	message.member.removeRole(message.guild.roles.find("name", "29"));
+	message.member.removeRole(message.guild.roles.find("name", "30"));
+	message.member.removeRole(message.guild.roles.find("name", "31"));
+	message.member.removeRole(message.guild.roles.find("name", "32"));
+message.member.removeRole(message.guild.roles.find("name", "33"));
+message.member.removeRole(message.guild.roles.find("name", "34"));
+message.member.removeRole(message.guild.roles.find("name", "35"));
+message.member.removeRole(message.guild.roles.find("name", "36"));
+message.member.removeRole(message.guild.roles.find("name", "37"));
+message.member.removeRole(message.guild.roles.find("name", "38"));
+message.member.removeRole(message.guild.roles.find("name", "39"));
+message.member.removeRole(message.guild.roles.find("name", "40"));
+message.member.removeRole(message.guild.roles.find("name", "41"));
+message.member.removeRole(message.guild.roles.find("name", "42"));
+message.member.removeRole(message.guild.roles.find("name", "43"));
+message.member.removeRole(message.guild.roles.find("name", "44"));
+	const embed = new Discord.RichEmbed()
+ 	.setFooter('Requested by '+message.author.username, message.author.avatarURL)
+   .setDescription(`تم تغير اللون بنجاح`)
+  message.channel.sendEmbed(embed);
+	}
+	
+	if (message.content === x15) {
+    if(!message.channel.guild) return;
+		message.member.removeRole(message.guild.roles.find("name", "1"));
+    message.member.removeRole(message.guild.roles.find("name", "2"));
+    message.member.removeRole(message.guild.roles.find("name", "3"));
+    message.member.removeRole(message.guild.roles.find("name", "4"));
+    message.member.removeRole(message.guild.roles.find("name", "5"));
+    message.member.removeRole(message.guild.roles.find("name", "6"));
+    message.member.removeRole(message.guild.roles.find("name", "7"));
+    message.member.removeRole(message.guild.roles.find("name", "8"));
+    message.member.removeRole(message.guild.roles.find("name", "9"));
+     message.member.removeRole(message.guild.roles.find("name", "10"));
+		message.member.removeRole(message.guild.roles.find("name", "11"));
+	message.member.removeRole(message.guild.roles.find("name", "12"));
+	message.member.removeRole(message.guild.roles.find("name", "13"));
+	message.member.removeRole(message.guild.roles.find("name", "14"));
+message.member.addRole(message.guild.roles.find("name", "15"));
+	message.member.removeRole(message.guild.roles.find("name", "16"));
+	message.member.removeRole(message.guild.roles.find("name", "17"));
+	message.member.removeRole(message.guild.roles.find("name", "18"));
+	message.member.removeRole(message.guild.roles.find("name", "19"));
+	message.member.removeRole(message.guild.roles.find("name", "20"));
+	message.member.removeRole(message.guild.roles.find("name", "21"));
+	message.member.removeRole(message.guild.roles.find("name", "22"));
+	message.member.removeRole(message.guild.roles.find("name", "23"));
+	message.member.removeRole(message.guild.roles.find("name", "24"));
+	message.member.removeRole(message.guild.roles.find("name", "25"));
+	message.member.removeRole(message.guild.roles.find("name", "26"));
+	message.member.removeRole(message.guild.roles.find("name", "27"));
+	message.member.removeRole(message.guild.roles.find("name", "28"));
+	message.member.removeRole(message.guild.roles.find("name", "29"));
+	message.member.removeRole(message.guild.roles.find("name", "30"));
+	message.member.removeRole(message.guild.roles.find("name", "31"));
+	message.member.removeRole(message.guild.roles.find("name", "32"));
+message.member.removeRole(message.guild.roles.find("name", "33"));
+message.member.removeRole(message.guild.roles.find("name", "34"));
+message.member.removeRole(message.guild.roles.find("name", "35"));
+message.member.removeRole(message.guild.roles.find("name", "36"));
+message.member.removeRole(message.guild.roles.find("name", "37"));
+message.member.removeRole(message.guild.roles.find("name", "38"));
+message.member.removeRole(message.guild.roles.find("name", "39"));
+message.member.removeRole(message.guild.roles.find("name", "40"));
+message.member.removeRole(message.guild.roles.find("name", "41"));
+message.member.removeRole(message.guild.roles.find("name", "42"));
+message.member.removeRole(message.guild.roles.find("name", "43"));
+message.member.removeRole(message.guild.roles.find("name", "44"));
+	const embed = new Discord.RichEmbed()
+ 	.setFooter('Requested by '+message.author.username, message.author.avatarURL)
+   .setDescription(`تم تغير اللون بنجاح`)
+  message.channel.sendEmbed(embed);
+	}
+	
+	if (message.content === x16) {
+    if(!message.channel.guild) return;
+		message.member.removeRole(message.guild.roles.find("name", "1"));
+    message.member.removeRole(message.guild.roles.find("name", "2"));
+    message.member.removeRole(message.guild.roles.find("name", "3"));
+    message.member.removeRole(message.guild.roles.find("name", "4"));
+    message.member.removeRole(message.guild.roles.find("name", "5"));
+    message.member.removeRole(message.guild.roles.find("name", "6"));
+    message.member.removeRole(message.guild.roles.find("name", "7"));
+    message.member.removeRole(message.guild.roles.find("name", "8"));
+    message.member.removeRole(message.guild.roles.find("name", "9"));
+     message.member.removeRole(message.guild.roles.find("name", "10"));
+		message.member.removeRole(message.guild.roles.find("name", "11"));
+	message.member.removeRole(message.guild.roles.find("name", "12"));
+	message.member.removeRole(message.guild.roles.find("name", "13"));
+	message.member.removeRole(message.guild.roles.find("name", "14"));
+	message.member.removeRole(message.guild.roles.find("name", "15"));
+message.member.addRole(message.guild.roles.find("name", "16"));
+	message.member.removeRole(message.guild.roles.find("name", "17"));
+	message.member.removeRole(message.guild.roles.find("name", "18"));
+	message.member.removeRole(message.guild.roles.find("name", "19"));
+	message.member.removeRole(message.guild.roles.find("name", "20"));
+	message.member.removeRole(message.guild.roles.find("name", "21"));
+	message.member.removeRole(message.guild.roles.find("name", "22"));
+	message.member.removeRole(message.guild.roles.find("name", "23"));
+	message.member.removeRole(message.guild.roles.find("name", "24"));
+	message.member.removeRole(message.guild.roles.find("name", "25"));
+	message.member.removeRole(message.guild.roles.find("name", "26"));
+	message.member.removeRole(message.guild.roles.find("name", "27"));
+	message.member.removeRole(message.guild.roles.find("name", "28"));
+	message.member.removeRole(message.guild.roles.find("name", "29"));
+	message.member.removeRole(message.guild.roles.find("name", "30"));
+	message.member.removeRole(message.guild.roles.find("name", "31"));
+	message.member.removeRole(message.guild.roles.find("name", "32"));
+message.member.removeRole(message.guild.roles.find("name", "33"));
+message.member.removeRole(message.guild.roles.find("name", "34"));
+message.member.removeRole(message.guild.roles.find("name", "35"));
+message.member.removeRole(message.guild.roles.find("name", "36"));
+message.member.removeRole(message.guild.roles.find("name", "37"));
+message.member.removeRole(message.guild.roles.find("name", "38"));
+message.member.removeRole(message.guild.roles.find("name", "39"));
+message.member.removeRole(message.guild.roles.find("name", "40"));
+message.member.removeRole(message.guild.roles.find("name", "41"));
+message.member.removeRole(message.guild.roles.find("name", "42"));
+message.member.removeRole(message.guild.roles.find("name", "43"));
+message.member.removeRole(message.guild.roles.find("name", "44"));
+	const embed = new Discord.RichEmbed()
+ 	.setFooter('Requested by '+message.author.username, message.author.avatarURL)
+   .setDescription(`تم تغير اللون بنجاح`)
+  message.channel.sendEmbed(embed);
+	}
+	
+	if (message.content === x17) {
+    if(!message.channel.guild) return;
+		message.member.removeRole(message.guild.roles.find("name", "1"));
+    message.member.removeRole(message.guild.roles.find("name", "2"));
+    message.member.removeRole(message.guild.roles.find("name", "3"));
+    message.member.removeRole(message.guild.roles.find("name", "4"));
+    message.member.removeRole(message.guild.roles.find("name", "5"));
+    message.member.removeRole(message.guild.roles.find("name", "6"));
+    message.member.removeRole(message.guild.roles.find("name", "7"));
+    message.member.removeRole(message.guild.roles.find("name", "8"));
+    message.member.removeRole(message.guild.roles.find("name", "9"));
+     message.member.removeRole(message.guild.roles.find("name", "10"));
+		message.member.removeRole(message.guild.roles.find("name", "11"));
+	message.member.removeRole(message.guild.roles.find("name", "12"));
+	message.member.removeRole(message.guild.roles.find("name", "13"));
+	message.member.removeRole(message.guild.roles.find("name", "14"));
+	message.member.removeRole(message.guild.roles.find("name", "15"));
+	message.member.removeRole(message.guild.roles.find("name", "16"));
+message.member.addRole(message.guild.roles.find("name", "17"));
+	message.member.removeRole(message.guild.roles.find("name", "18"));
+	message.member.removeRole(message.guild.roles.find("name", "19"));
+	message.member.removeRole(message.guild.roles.find("name", "20"));
+	message.member.removeRole(message.guild.roles.find("name", "21"));
+	message.member.removeRole(message.guild.roles.find("name", "22"));
+	message.member.removeRole(message.guild.roles.find("name", "23"));
+	message.member.removeRole(message.guild.roles.find("name", "24"));
+	message.member.removeRole(message.guild.roles.find("name", "25"));
+	message.member.removeRole(message.guild.roles.find("name", "26"));
+	message.member.removeRole(message.guild.roles.find("name", "27"));
+	message.member.removeRole(message.guild.roles.find("name", "28"));
+	message.member.removeRole(message.guild.roles.find("name", "29"));
+	message.member.removeRole(message.guild.roles.find("name", "30"));
+	message.member.removeRole(message.guild.roles.find("name", "31"));
+	message.member.removeRole(message.guild.roles.find("name", "32"));
+message.member.removeRole(message.guild.roles.find("name", "33"));
+message.member.removeRole(message.guild.roles.find("name", "34"));
+message.member.removeRole(message.guild.roles.find("name", "35"));
+message.member.removeRole(message.guild.roles.find("name", "36"));
+message.member.removeRole(message.guild.roles.find("name", "37"));
+message.member.removeRole(message.guild.roles.find("name", "38"));
+message.member.removeRole(message.guild.roles.find("name", "39"));
+message.member.removeRole(message.guild.roles.find("name", "40"));
+message.member.removeRole(message.guild.roles.find("name", "41"));
+message.member.removeRole(message.guild.roles.find("name", "42"));
+message.member.removeRole(message.guild.roles.find("name", "43"));
+message.member.removeRole(message.guild.roles.find("name", "44"));
+	const embed = new Discord.RichEmbed()
+ 	.setFooter('Requested by '+message.author.username, message.author.avatarURL)
+   .setDescription(`تم تغير اللون بنجاح`)
+  message.channel.sendEmbed(embed);
+	}
+	
+	if (message.content === x18) {
+    if(!message.channel.guild) return;
+		message.member.removeRole(message.guild.roles.find("name", "1"));
+    message.member.removeRole(message.guild.roles.find("name", "2"));
+    message.member.removeRole(message.guild.roles.find("name", "3"));
+    message.member.removeRole(message.guild.roles.find("name", "4"));
+    message.member.removeRole(message.guild.roles.find("name", "5"));
+    message.member.removeRole(message.guild.roles.find("name", "6"));
+    message.member.removeRole(message.guild.roles.find("name", "7"));
+    message.member.removeRole(message.guild.roles.find("name", "8"));
+    message.member.removeRole(message.guild.roles.find("name", "9"));
+     message.member.removeRole(message.guild.roles.find("name", "10"));
+		message.member.removeRole(message.guild.roles.find("name", "11"));
+	message.member.removeRole(message.guild.roles.find("name", "12"));
+	message.member.removeRole(message.guild.roles.find("name", "13"));
+	message.member.removeRole(message.guild.roles.find("name", "14"));
+	message.member.removeRole(message.guild.roles.find("name", "15"));
+	message.member.removeRole(message.guild.roles.find("name", "16"));
+	message.member.removeRole(message.guild.roles.find("name", "17"));
+message.member.addRole(message.guild.roles.find("name", "18"));
+	message.member.removeRole(message.guild.roles.find("name", "19"));
+	message.member.removeRole(message.guild.roles.find("name", "20"));
+	message.member.removeRole(message.guild.roles.find("name", "21"));
+	message.member.removeRole(message.guild.roles.find("name", "22"));
+	message.member.removeRole(message.guild.roles.find("name", "23"));
+	message.member.removeRole(message.guild.roles.find("name", "24"));
+	message.member.removeRole(message.guild.roles.find("name", "25"));
+	message.member.removeRole(message.guild.roles.find("name", "26"));
+	message.member.removeRole(message.guild.roles.find("name", "27"));
+	message.member.removeRole(message.guild.roles.find("name", "28"));
+	message.member.removeRole(message.guild.roles.find("name", "29"));
+	message.member.removeRole(message.guild.roles.find("name", "30"));
+	message.member.removeRole(message.guild.roles.find("name", "31"));
+	message.member.removeRole(message.guild.roles.find("name", "32"));
+message.member.removeRole(message.guild.roles.find("name", "33"));
+message.member.removeRole(message.guild.roles.find("name", "34"));
+message.member.removeRole(message.guild.roles.find("name", "35"));
+message.member.removeRole(message.guild.roles.find("name", "36"));
+message.member.removeRole(message.guild.roles.find("name", "37"));
+message.member.removeRole(message.guild.roles.find("name", "38"));
+message.member.removeRole(message.guild.roles.find("name", "39"));
+message.member.removeRole(message.guild.roles.find("name", "40"));
+message.member.removeRole(message.guild.roles.find("name", "41"));
+message.member.removeRole(message.guild.roles.find("name", "42"));
+message.member.removeRole(message.guild.roles.find("name", "43"));
+message.member.removeRole(message.guild.roles.find("name", "44"));
+	const embed = new Discord.RichEmbed()
+ 	.setFooter('Requested by '+message.author.username, message.author.avatarURL)
+   .setDescription(`تم تغير اللون بنجاح`)
+  message.channel.sendEmbed(embed);
+	}
+	
+		if (message.content === x19) {
+    if(!message.channel.guild) return;
+		message.member.removeRole(message.guild.roles.find("name", "1"));
+    message.member.removeRole(message.guild.roles.find("name", "2"));
+    message.member.removeRole(message.guild.roles.find("name", "3"));
+    message.member.removeRole(message.guild.roles.find("name", "4"));
+    message.member.removeRole(message.guild.roles.find("name", "5"));
+    message.member.removeRole(message.guild.roles.find("name", "6"));
+    message.member.removeRole(message.guild.roles.find("name", "7"));
+    message.member.removeRole(message.guild.roles.find("name", "8"));
+    message.member.removeRole(message.guild.roles.find("name", "9"));
+     message.member.removeRole(message.guild.roles.find("name", "10"));
+		message.member.removeRole(message.guild.roles.find("name", "11"));
+	message.member.removeRole(message.guild.roles.find("name", "12"));
+	message.member.removeRole(message.guild.roles.find("name", "13"));
+	message.member.removeRole(message.guild.roles.find("name", "14"));
+	message.member.removeRole(message.guild.roles.find("name", "15"));
+	message.member.removeRole(message.guild.roles.find("name", "16"));
+	message.member.removeRole(message.guild.roles.find("name", "17"));
+	message.member.removeRole(message.guild.roles.find("name", "18"));
+	message.member.removeRole(message.guild.roles.find("name", "20"));
+message.member.addRole(message.guild.roles.find("name", "19"));
+	message.member.removeRole(message.guild.roles.find("name", "21"));
+	message.member.removeRole(message.guild.roles.find("name", "22"));
+	message.member.removeRole(message.guild.roles.find("name", "23"));
+	message.member.removeRole(message.guild.roles.find("name", "24"));
+	message.member.removeRole(message.guild.roles.find("name", "25"));
+	message.member.removeRole(message.guild.roles.find("name", "26"));
+	message.member.removeRole(message.guild.roles.find("name", "27"));
+	message.member.removeRole(message.guild.roles.find("name", "28"));
+	message.member.removeRole(message.guild.roles.find("name", "29"));
+	message.member.removeRole(message.guild.roles.find("name", "30"));
+	message.member.removeRole(message.guild.roles.find("name", "31"));
+	message.member.removeRole(message.guild.roles.find("name", "32"));
+message.member.removeRole(message.guild.roles.find("name", "33"));
+message.member.removeRole(message.guild.roles.find("name", "34"));
+message.member.removeRole(message.guild.roles.find("name", "35"));
+message.member.removeRole(message.guild.roles.find("name", "36"));
+message.member.removeRole(message.guild.roles.find("name", "37"));
+message.member.removeRole(message.guild.roles.find("name", "38"));
+message.member.removeRole(message.guild.roles.find("name", "39"));
+message.member.removeRole(message.guild.roles.find("name", "40"));
+message.member.removeRole(message.guild.roles.find("name", "41"));
+message.member.removeRole(message.guild.roles.find("name", "42"));
+message.member.removeRole(message.guild.roles.find("name", "43"));
+message.member.removeRole(message.guild.roles.find("name", "44"));
+	const embed = new Discord.RichEmbed()
+ 	.setFooter('Requested by '+message.author.username, message.author.avatarURL)
+   .setDescription(`تم تغير اللون بنجاح`)
+  message.channel.sendEmbed(embed);
+	}
+	
+	if (message.content === x20) {
+    if(!message.channel.guild) return;
+		message.member.removeRole(message.guild.roles.find("name", "1"));
+    message.member.removeRole(message.guild.roles.find("name", "2"));
+    message.member.removeRole(message.guild.roles.find("name", "3"));
+    message.member.removeRole(message.guild.roles.find("name", "4"));
+    message.member.removeRole(message.guild.roles.find("name", "5"));
+    message.member.removeRole(message.guild.roles.find("name", "6"));
+    message.member.removeRole(message.guild.roles.find("name", "7"));
+    message.member.removeRole(message.guild.roles.find("name", "8"));
+    message.member.removeRole(message.guild.roles.find("name", "9"));
+     message.member.removeRole(message.guild.roles.find("name", "10"));
+		message.member.removeRole(message.guild.roles.find("name", "11"));
+	message.member.removeRole(message.guild.roles.find("name", "12"));
+	message.member.removeRole(message.guild.roles.find("name", "13"));
+	message.member.removeRole(message.guild.roles.find("name", "14"));
+	message.member.removeRole(message.guild.roles.find("name", "15"));
+	message.member.removeRole(message.guild.roles.find("name", "16"));
+	message.member.removeRole(message.guild.roles.find("name", "17"));
+	message.member.removeRole(message.guild.roles.find("name", "18"));
+	message.member.removeRole(message.guild.roles.find("name", "19"));
+message.member.addRole(message.guild.roles.find("name", "20"));
+	message.member.removeRole(message.guild.roles.find("name", "21"));
+	message.member.removeRole(message.guild.roles.find("name", "22"));
+	message.member.removeRole(message.guild.roles.find("name", "23"));
+	message.member.removeRole(message.guild.roles.find("name", "24"));
+	message.member.removeRole(message.guild.roles.find("name", "25"));
+	message.member.removeRole(message.guild.roles.find("name", "26"));
+	message.member.removeRole(message.guild.roles.find("name", "27"));
+	message.member.removeRole(message.guild.roles.find("name", "28"));
+	message.member.removeRole(message.guild.roles.find("name", "29"));
+	message.member.removeRole(message.guild.roles.find("name", "30"));
+	message.member.removeRole(message.guild.roles.find("name", "31"));
+	message.member.removeRole(message.guild.roles.find("name", "32"));
+message.member.removeRole(message.guild.roles.find("name", "33"));
+message.member.removeRole(message.guild.roles.find("name", "34"));
+message.member.removeRole(message.guild.roles.find("name", "35"));
+message.member.removeRole(message.guild.roles.find("name", "36"));
+message.member.removeRole(message.guild.roles.find("name", "37"));
+message.member.removeRole(message.guild.roles.find("name", "38"));
+message.member.removeRole(message.guild.roles.find("name", "39"));
+message.member.removeRole(message.guild.roles.find("name", "40"));
+message.member.removeRole(message.guild.roles.find("name", "41"));
+message.member.removeRole(message.guild.roles.find("name", "42"));
+message.member.removeRole(message.guild.roles.find("name", "43"));
+message.member.removeRole(message.guild.roles.find("name", "44"));
+	const embed = new Discord.RichEmbed()
+ 	.setFooter('Requested by '+message.author.username, message.author.avatarURL)
+   .setDescription(`تم تغير اللون بنجاح`)
+  message.channel.sendEmbed(embed);
+	}
+	
+	if (message.content === x21) {
+    if(!message.channel.guild) return;
+		message.member.removeRole(message.guild.roles.find("name", "1"));
+    message.member.removeRole(message.guild.roles.find("name", "2"));
+    message.member.removeRole(message.guild.roles.find("name", "3"));
+    message.member.removeRole(message.guild.roles.find("name", "4"));
+    message.member.removeRole(message.guild.roles.find("name", "5"));
+    message.member.removeRole(message.guild.roles.find("name", "6"));
+    message.member.removeRole(message.guild.roles.find("name", "7"));
+    message.member.removeRole(message.guild.roles.find("name", "8"));
+    message.member.removeRole(message.guild.roles.find("name", "9"));
+     message.member.removeRole(message.guild.roles.find("name", "10"));
+		message.member.removeRole(message.guild.roles.find("name", "11"));
+	message.member.removeRole(message.guild.roles.find("name", "12"));
+	message.member.removeRole(message.guild.roles.find("name", "13"));
+	message.member.removeRole(message.guild.roles.find("name", "14"));
+	message.member.removeRole(message.guild.roles.find("name", "15"));
+	message.member.removeRole(message.guild.roles.find("name", "16"));
+	message.member.removeRole(message.guild.roles.find("name", "17"));
+	message.member.removeRole(message.guild.roles.find("name", "18"));
+	message.member.removeRole(message.guild.roles.find("name", "19"));
+	message.member.removeRole(message.guild.roles.find("name", "20"));
+message.member.addRole(message.guild.roles.find("name", "21"));
+	message.member.removeRole(message.guild.roles.find("name", "22"));
+	message.member.removeRole(message.guild.roles.find("name", "23"));
+	message.member.removeRole(message.guild.roles.find("name", "24"));
+	message.member.removeRole(message.guild.roles.find("name", "25"));
+	message.member.removeRole(message.guild.roles.find("name", "26"));
+	message.member.removeRole(message.guild.roles.find("name", "27"));
+	message.member.removeRole(message.guild.roles.find("name", "28"));
+	message.member.removeRole(message.guild.roles.find("name", "29"));
+	message.member.removeRole(message.guild.roles.find("name", "30"));
+	message.member.removeRole(message.guild.roles.find("name", "31"));
+	message.member.removeRole(message.guild.roles.find("name", "32"));
+message.member.removeRole(message.guild.roles.find("name", "33"));
+message.member.removeRole(message.guild.roles.find("name", "34"));
+message.member.removeRole(message.guild.roles.find("name", "35"));
+message.member.removeRole(message.guild.roles.find("name", "36"));
+message.member.removeRole(message.guild.roles.find("name", "37"));
+message.member.removeRole(message.guild.roles.find("name", "38"));
+message.member.removeRole(message.guild.roles.find("name", "39"));
+message.member.removeRole(message.guild.roles.find("name", "40"));
+message.member.removeRole(message.guild.roles.find("name", "41"));
+message.member.removeRole(message.guild.roles.find("name", "42"));
+message.member.removeRole(message.guild.roles.find("name", "43"));
+message.member.removeRole(message.guild.roles.find("name", "44"));
+	const embed = new Discord.RichEmbed()
+ 	.setFooter('Requested by '+message.author.username, message.author.avatarURL)
+   .setDescription(`تم تغير اللون بنجاح`)
+  message.channel.sendEmbed(embed);
+	}
+	
+	if (message.content === x22) {
+    if(!message.channel.guild) return;
+		message.member.removeRole(message.guild.roles.find("name", "1"));
+    message.member.removeRole(message.guild.roles.find("name", "2"));
+    message.member.removeRole(message.guild.roles.find("name", "3"));
+    message.member.removeRole(message.guild.roles.find("name", "4"));
+    message.member.removeRole(message.guild.roles.find("name", "5"));
+    message.member.removeRole(message.guild.roles.find("name", "6"));
+    message.member.removeRole(message.guild.roles.find("name", "7"));
+    message.member.removeRole(message.guild.roles.find("name", "8"));
+    message.member.removeRole(message.guild.roles.find("name", "9"));
+     message.member.removeRole(message.guild.roles.find("name", "10"));
+		message.member.removeRole(message.guild.roles.find("name", "11"));
+	message.member.removeRole(message.guild.roles.find("name", "12"));
+	message.member.removeRole(message.guild.roles.find("name", "13"));
+	message.member.removeRole(message.guild.roles.find("name", "14"));
+	message.member.removeRole(message.guild.roles.find("name", "15"));
+	message.member.removeRole(message.guild.roles.find("name", "16"));
+	message.member.removeRole(message.guild.roles.find("name", "17"));
+	message.member.removeRole(message.guild.roles.find("name", "18"));
+	message.member.removeRole(message.guild.roles.find("name", "19"));
+	message.member.removeRole(message.guild.roles.find("name", "20"));
+	message.member.removeRole(message.guild.roles.find("name", "21"));
+message.member.addRole(message.guild.roles.find("name", "22"));
+	message.member.removeRole(message.guild.roles.find("name", "23"));
+	message.member.removeRole(message.guild.roles.find("name", "24"));
+	message.member.removeRole(message.guild.roles.find("name", "25"));
+	message.member.removeRole(message.guild.roles.find("name", "26"));
+	message.member.removeRole(message.guild.roles.find("name", "27"));
+	message.member.removeRole(message.guild.roles.find("name", "28"));
+	message.member.removeRole(message.guild.roles.find("name", "29"));
+	message.member.removeRole(message.guild.roles.find("name", "30"));
+	message.member.removeRole(message.guild.roles.find("name", "31"));
+	message.member.removeRole(message.guild.roles.find("name", "32"));
+message.member.removeRole(message.guild.roles.find("name", "33"));
+message.member.removeRole(message.guild.roles.find("name", "34"));
+message.member.removeRole(message.guild.roles.find("name", "35"));
+message.member.removeRole(message.guild.roles.find("name", "36"));
+message.member.removeRole(message.guild.roles.find("name", "37"));
+message.member.removeRole(message.guild.roles.find("name", "38"));
+message.member.removeRole(message.guild.roles.find("name", "39"));
+message.member.removeRole(message.guild.roles.find("name", "40"));
+message.member.removeRole(message.guild.roles.find("name", "41"));
+message.member.removeRole(message.guild.roles.find("name", "42"));
+message.member.removeRole(message.guild.roles.find("name", "43"));
+message.member.removeRole(message.guild.roles.find("name", "44"));
+	const embed = new Discord.RichEmbed()
+ 	.setFooter('Requested by '+message.author.username, message.author.avatarURL)
+   .setDescription(`تم تغير اللون بنجاح`)
+  message.channel.sendEmbed(embed);
+	}
+	
+	if (message.content === x23) {
+    if(!message.channel.guild) return;
+		message.member.removeRole(message.guild.roles.find("name", "1"));
+    message.member.removeRole(message.guild.roles.find("name", "2"));
+    message.member.removeRole(message.guild.roles.find("name", "3"));
+    message.member.removeRole(message.guild.roles.find("name", "4"));
+    message.member.removeRole(message.guild.roles.find("name", "5"));
+    message.member.removeRole(message.guild.roles.find("name", "6"));
+    message.member.removeRole(message.guild.roles.find("name", "7"));
+    message.member.removeRole(message.guild.roles.find("name", "8"));
+    message.member.removeRole(message.guild.roles.find("name", "9"));
+     message.member.removeRole(message.guild.roles.find("name", "10"));
+		message.member.removeRole(message.guild.roles.find("name", "11"));
+	message.member.removeRole(message.guild.roles.find("name", "12"));
+	message.member.removeRole(message.guild.roles.find("name", "13"));
+	message.member.removeRole(message.guild.roles.find("name", "14"));
+	message.member.removeRole(message.guild.roles.find("name", "15"));
+	message.member.removeRole(message.guild.roles.find("name", "16"));
+	message.member.removeRole(message.guild.roles.find("name", "17"));
+	message.member.removeRole(message.guild.roles.find("name", "18"));
+	message.member.removeRole(message.guild.roles.find("name", "19"));
+	message.member.removeRole(message.guild.roles.find("name", "20"));
+	message.member.removeRole(message.guild.roles.find("name", "21"));
+	message.member.removeRole(message.guild.roles.find("name", "22"));
+message.member.addRole(message.guild.roles.find("name", "23"));
+	message.member.removeRole(message.guild.roles.find("name", "24"));
+	message.member.removeRole(message.guild.roles.find("name", "25"));
+	message.member.removeRole(message.guild.roles.find("name", "26"));
+	message.member.removeRole(message.guild.roles.find("name", "27"));
+	message.member.removeRole(message.guild.roles.find("name", "28"));
+	message.member.removeRole(message.guild.roles.find("name", "29"));
+	message.member.removeRole(message.guild.roles.find("name", "30"));
+	message.member.removeRole(message.guild.roles.find("name", "31"));
+	message.member.removeRole(message.guild.roles.find("name", "32"));
+message.member.removeRole(message.guild.roles.find("name", "33"));
+message.member.removeRole(message.guild.roles.find("name", "34"));
+message.member.removeRole(message.guild.roles.find("name", "35"));
+message.member.removeRole(message.guild.roles.find("name", "36"));
+message.member.removeRole(message.guild.roles.find("name", "37"));
+message.member.removeRole(message.guild.roles.find("name", "38"));
+message.member.removeRole(message.guild.roles.find("name", "39"));
+message.member.removeRole(message.guild.roles.find("name", "40"));
+message.member.removeRole(message.guild.roles.find("name", "41"));
+message.member.removeRole(message.guild.roles.find("name", "42"));
+message.member.removeRole(message.guild.roles.find("name", "43"));
+message.member.removeRole(message.guild.roles.find("name", "44"));
+	const embed = new Discord.RichEmbed()
+ 	.setFooter('Requested by '+message.author.username, message.author.avatarURL)
+   .setDescription(`تم تغير اللون بنجاح`)
+  message.channel.sendEmbed(embed);
+	}
+	
+	if (message.content === x24) {
+    if(!message.channel.guild) return;
+		message.member.removeRole(message.guild.roles.find("name", "1"));
+    message.member.removeRole(message.guild.roles.find("name", "2"));
+    message.member.removeRole(message.guild.roles.find("name", "3"));
+    message.member.removeRole(message.guild.roles.find("name", "4"));
+    message.member.removeRole(message.guild.roles.find("name", "5"));
+    message.member.removeRole(message.guild.roles.find("name", "6"));
+    message.member.removeRole(message.guild.roles.find("name", "7"));
+    message.member.removeRole(message.guild.roles.find("name", "8"));
+    message.member.removeRole(message.guild.roles.find("name", "9"));
+     message.member.removeRole(message.guild.roles.find("name", "10"));
+		message.member.removeRole(message.guild.roles.find("name", "11"));
+	message.member.removeRole(message.guild.roles.find("name", "12"));
+	message.member.removeRole(message.guild.roles.find("name", "13"));
+	message.member.removeRole(message.guild.roles.find("name", "14"));
+	message.member.removeRole(message.guild.roles.find("name", "15"));
+	message.member.removeRole(message.guild.roles.find("name", "16"));
+	message.member.removeRole(message.guild.roles.find("name", "17"));
+	message.member.removeRole(message.guild.roles.find("name", "18"));
+	message.member.removeRole(message.guild.roles.find("name", "19"));
+	message.member.removeRole(message.guild.roles.find("name", "20"));
+	message.member.removeRole(message.guild.roles.find("name", "21"));
+	message.member.removeRole(message.guild.roles.find("name", "22"));
+	message.member.removeRole(message.guild.roles.find("name", "23"));
+message.member.addRole(message.guild.roles.find("name", "24"));
+	message.member.removeRole(message.guild.roles.find("name", "25"));
+	message.member.removeRole(message.guild.roles.find("name", "26"));
+	message.member.removeRole(message.guild.roles.find("name", "27"));
+	message.member.removeRole(message.guild.roles.find("name", "28"));
+	message.member.removeRole(message.guild.roles.find("name", "29"));
+	message.member.removeRole(message.guild.roles.find("name", "30"));
+	message.member.removeRole(message.guild.roles.find("name", "31"));
+	message.member.removeRole(message.guild.roles.find("name", "32"));
+message.member.removeRole(message.guild.roles.find("name", "33"));
+message.member.removeRole(message.guild.roles.find("name", "34"));
+message.member.removeRole(message.guild.roles.find("name", "35"));
+message.member.removeRole(message.guild.roles.find("name", "36"));
+message.member.removeRole(message.guild.roles.find("name", "37"));
+message.member.removeRole(message.guild.roles.find("name", "38"));
+message.member.removeRole(message.guild.roles.find("name", "39"));
+message.member.removeRole(message.guild.roles.find("name", "40"));
+message.member.removeRole(message.guild.roles.find("name", "41"));
+message.member.removeRole(message.guild.roles.find("name", "42"));
+message.member.removeRole(message.guild.roles.find("name", "43"));
+message.member.removeRole(message.guild.roles.find("name", "44"));
+	const embed = new Discord.RichEmbed()
+ 	.setFooter('Requested by '+message.author.username, message.author.avatarURL)
+   .setDescription(`تم تغير اللون بنجاح`)
+  message.channel.sendEmbed(embed);
+	}
+	
+	if (message.content === x25) {
+    if(!message.channel.guild) return;
+		message.member.removeRole(message.guild.roles.find("name", "1"));
+    message.member.removeRole(message.guild.roles.find("name", "2"));
+    message.member.removeRole(message.guild.roles.find("name", "3"));
+    message.member.removeRole(message.guild.roles.find("name", "4"));
+    message.member.removeRole(message.guild.roles.find("name", "5"));
+    message.member.removeRole(message.guild.roles.find("name", "6"));
+    message.member.removeRole(message.guild.roles.find("name", "7"));
+    message.member.removeRole(message.guild.roles.find("name", "8"));
+    message.member.removeRole(message.guild.roles.find("name", "9"));
+     message.member.removeRole(message.guild.roles.find("name", "10"));
+		message.member.removeRole(message.guild.roles.find("name", "11"));
+	message.member.removeRole(message.guild.roles.find("name", "12"));
+	message.member.removeRole(message.guild.roles.find("name", "13"));
+	message.member.removeRole(message.guild.roles.find("name", "14"));
+	message.member.removeRole(message.guild.roles.find("name", "15"));
+	message.member.removeRole(message.guild.roles.find("name", "16"));
+	message.member.removeRole(message.guild.roles.find("name", "17"));
+	message.member.removeRole(message.guild.roles.find("name", "18"));
+	message.member.removeRole(message.guild.roles.find("name", "19"));
+	message.member.removeRole(message.guild.roles.find("name", "20"));
+	message.member.removeRole(message.guild.roles.find("name", "21"));
+	message.member.removeRole(message.guild.roles.find("name", "22"));
+	message.member.removeRole(message.guild.roles.find("name", "23"));
+	message.member.removeRole(message.guild.roles.find("name", "24"));
+message.member.addRole(message.guild.roles.find("name", "25"));
+	message.member.removeRole(message.guild.roles.find("name", "26"));
+	message.member.removeRole(message.guild.roles.find("name", "27"));
+	message.member.removeRole(message.guild.roles.find("name", "28"));
+	message.member.removeRole(message.guild.roles.find("name", "29"));
+	message.member.removeRole(message.guild.roles.find("name", "30"));
+	message.member.removeRole(message.guild.roles.find("name", "31"));
+	message.member.removeRole(message.guild.roles.find("name", "32"));
+message.member.removeRole(message.guild.roles.find("name", "33"));
+message.member.removeRole(message.guild.roles.find("name", "34"));
+message.member.removeRole(message.guild.roles.find("name", "35"));
+message.member.removeRole(message.guild.roles.find("name", "36"));
+message.member.removeRole(message.guild.roles.find("name", "37"));
+message.member.removeRole(message.guild.roles.find("name", "38"));
+message.member.removeRole(message.guild.roles.find("name", "39"));
+message.member.removeRole(message.guild.roles.find("name", "40"));
+message.member.removeRole(message.guild.roles.find("name", "41"));
+message.member.removeRole(message.guild.roles.find("name", "42"));
+message.member.removeRole(message.guild.roles.find("name", "43"));
+message.member.removeRole(message.guild.roles.find("name", "44"));
+	const embed = new Discord.RichEmbed()
+ 	.setFooter('Requested by '+message.author.username, message.author.avatarURL)
+   .setDescription(`تم تغير اللون بنجاح`)
+  message.channel.sendEmbed(embed);
+	}
+	
+	if (message.content === x26) {
+    if(!message.channel.guild) return;
+		message.member.removeRole(message.guild.roles.find("name", "1"));
+    message.member.removeRole(message.guild.roles.find("name", "2"));
+    message.member.removeRole(message.guild.roles.find("name", "3"));
+    message.member.removeRole(message.guild.roles.find("name", "4"));
+    message.member.removeRole(message.guild.roles.find("name", "5"));
+    message.member.removeRole(message.guild.roles.find("name", "6"));
+    message.member.removeRole(message.guild.roles.find("name", "7"));
+    message.member.removeRole(message.guild.roles.find("name", "8"));
+    message.member.removeRole(message.guild.roles.find("name", "9"));
+     message.member.removeRole(message.guild.roles.find("name", "10"));
+		message.member.removeRole(message.guild.roles.find("name", "11"));
+	message.member.removeRole(message.guild.roles.find("name", "12"));
+	message.member.removeRole(message.guild.roles.find("name", "13"));
+	message.member.removeRole(message.guild.roles.find("name", "14"));
+	message.member.removeRole(message.guild.roles.find("name", "15"));
+	message.member.removeRole(message.guild.roles.find("name", "16"));
+	message.member.removeRole(message.guild.roles.find("name", "17"));
+	message.member.removeRole(message.guild.roles.find("name", "18"));
+	message.member.removeRole(message.guild.roles.find("name", "19"));
+	message.member.removeRole(message.guild.roles.find("name", "20"));
+	message.member.removeRole(message.guild.roles.find("name", "21"));
+	message.member.removeRole(message.guild.roles.find("name", "22"));
+	message.member.removeRole(message.guild.roles.find("name", "23"));
+	message.member.removeRole(message.guild.roles.find("name", "24"));
+	message.member.removeRole(message.guild.roles.find("name", "25"));
+message.member.addRole(message.guild.roles.find("name", "26"));
+	message.member.removeRole(message.guild.roles.find("name", "27"));
+	message.member.removeRole(message.guild.roles.find("name", "28"));
+	message.member.removeRole(message.guild.roles.find("name", "29"));
+	message.member.removeRole(message.guild.roles.find("name", "30"));
+	message.member.removeRole(message.guild.roles.find("name", "31"));
+	message.member.removeRole(message.guild.roles.find("name", "32"));
+message.member.removeRole(message.guild.roles.find("name", "33"));
+message.member.removeRole(message.guild.roles.find("name", "34"));
+message.member.removeRole(message.guild.roles.find("name", "35"));
+message.member.removeRole(message.guild.roles.find("name", "36"));
+message.member.removeRole(message.guild.roles.find("name", "37"));
+message.member.removeRole(message.guild.roles.find("name", "38"));
+message.member.removeRole(message.guild.roles.find("name", "39"));
+message.member.removeRole(message.guild.roles.find("name", "40"));
+message.member.removeRole(message.guild.roles.find("name", "41"));
+message.member.removeRole(message.guild.roles.find("name", "42"));
+message.member.removeRole(message.guild.roles.find("name", "43"));
+message.member.removeRole(message.guild.roles.find("name", "44"));
+	const embed = new Discord.RichEmbed()
+ 	.setFooter('Requested by '+message.author.username, message.author.avatarURL)
+   .setDescription(`تم تغير اللون بنجاح`)
+  message.channel.sendEmbed(embed);
+	}
+	
+	if (message.content === x27) {
+    if(!message.channel.guild) return;
+		message.member.removeRole(message.guild.roles.find("name", "1"));
+    message.member.removeRole(message.guild.roles.find("name", "2"));
+    message.member.removeRole(message.guild.roles.find("name", "3"));
+    message.member.removeRole(message.guild.roles.find("name", "4"));
+    message.member.removeRole(message.guild.roles.find("name", "5"));
+    message.member.removeRole(message.guild.roles.find("name", "6"));
+    message.member.removeRole(message.guild.roles.find("name", "7"));
+    message.member.removeRole(message.guild.roles.find("name", "8"));
+    message.member.removeRole(message.guild.roles.find("name", "9"));
+     message.member.removeRole(message.guild.roles.find("name", "10"));
+		message.member.removeRole(message.guild.roles.find("name", "11"));
+	message.member.removeRole(message.guild.roles.find("name", "12"));
+	message.member.removeRole(message.guild.roles.find("name", "13"));
+	message.member.removeRole(message.guild.roles.find("name", "14"));
+	message.member.removeRole(message.guild.roles.find("name", "15"));
+	message.member.removeRole(message.guild.roles.find("name", "16"));
+	message.member.removeRole(message.guild.roles.find("name", "17"));
+	message.member.removeRole(message.guild.roles.find("name", "18"));
+	message.member.removeRole(message.guild.roles.find("name", "19"));
+	message.member.removeRole(message.guild.roles.find("name", "20"));
+	message.member.removeRole(message.guild.roles.find("name", "21"));
+	message.member.removeRole(message.guild.roles.find("name", "22"));
+	message.member.removeRole(message.guild.roles.find("name", "23"));
+	message.member.removeRole(message.guild.roles.find("name", "24"));
+	message.member.removeRole(message.guild.roles.find("name", "25"));
+	message.member.removeRole(message.guild.roles.find("name", "26"));
+message.member.addRole(message.guild.roles.find("name", "27"));
+	message.member.removeRole(message.guild.roles.find("name", "28"));
+	message.member.removeRole(message.guild.roles.find("name", "29"));
+	message.member.removeRole(message.guild.roles.find("name", "30"));
+	message.member.removeRole(message.guild.roles.find("name", "31"));
+	message.member.removeRole(message.guild.roles.find("name", "32"));
+message.member.removeRole(message.guild.roles.find("name", "33"));
+message.member.removeRole(message.guild.roles.find("name", "34"));
+message.member.removeRole(message.guild.roles.find("name", "35"));
+message.member.removeRole(message.guild.roles.find("name", "36"));
+message.member.removeRole(message.guild.roles.find("name", "37"));
+message.member.removeRole(message.guild.roles.find("name", "38"));
+message.member.removeRole(message.guild.roles.find("name", "39"));
+message.member.removeRole(message.guild.roles.find("name", "40"));
+message.member.removeRole(message.guild.roles.find("name", "41"));
+message.member.removeRole(message.guild.roles.find("name", "42"));
+message.member.removeRole(message.guild.roles.find("name", "43"));
+message.member.removeRole(message.guild.roles.find("name", "44"));
+	const embed = new Discord.RichEmbed()
+ 	.setFooter('Requested by '+message.author.username, message.author.avatarURL)
+   .setDescription(`تم تغير اللون بنجاح`)
+  message.channel.sendEmbed(embed);
+	}
+	
+	if (message.content === x28) {
+    if(!message.channel.guild) return;
+		message.member.removeRole(message.guild.roles.find("name", "1"));
+    message.member.removeRole(message.guild.roles.find("name", "2"));
+    message.member.removeRole(message.guild.roles.find("name", "3"));
+    message.member.removeRole(message.guild.roles.find("name", "4"));
+    message.member.removeRole(message.guild.roles.find("name", "5"));
+    message.member.removeRole(message.guild.roles.find("name", "6"));
+    message.member.removeRole(message.guild.roles.find("name", "7"));
+    message.member.removeRole(message.guild.roles.find("name", "8"));
+    message.member.removeRole(message.guild.roles.find("name", "9"));
+     message.member.removeRole(message.guild.roles.find("name", "10"));
+		message.member.removeRole(message.guild.roles.find("name", "11"));
+	message.member.removeRole(message.guild.roles.find("name", "12"));
+	message.member.removeRole(message.guild.roles.find("name", "13"));
+	message.member.removeRole(message.guild.roles.find("name", "14"));
+	message.member.removeRole(message.guild.roles.find("name", "15"));
+	message.member.removeRole(message.guild.roles.find("name", "16"));
+	message.member.removeRole(message.guild.roles.find("name", "17"));
+	message.member.removeRole(message.guild.roles.find("name", "18"));
+	message.member.removeRole(message.guild.roles.find("name", "19"));
+	message.member.removeRole(message.guild.roles.find("name", "20"));
+	message.member.removeRole(message.guild.roles.find("name", "21"));
+	message.member.removeRole(message.guild.roles.find("name", "22"));
+	message.member.removeRole(message.guild.roles.find("name", "23"));
+	message.member.removeRole(message.guild.roles.find("name", "24"));
+	message.member.removeRole(message.guild.roles.find("name", "25"));
+	message.member.removeRole(message.guild.roles.find("name", "26"));
+	message.member.removeRole(message.guild.roles.find("name", "27"));
+message.member.addRole(message.guild.roles.find("name", "28"));
+	message.member.removeRole(message.guild.roles.find("name", "29"));
+	message.member.removeRole(message.guild.roles.find("name", "30"));
+	message.member.removeRole(message.guild.roles.find("name", "31"));
+	message.member.removeRole(message.guild.roles.find("name", "32"));
+message.member.removeRole(message.guild.roles.find("name", "33"));
+message.member.removeRole(message.guild.roles.find("name", "34"));
+message.member.removeRole(message.guild.roles.find("name", "35"));
+message.member.removeRole(message.guild.roles.find("name", "36"));
+message.member.removeRole(message.guild.roles.find("name", "37"));
+message.member.removeRole(message.guild.roles.find("name", "38"));
+message.member.removeRole(message.guild.roles.find("name", "39"));
+message.member.removeRole(message.guild.roles.find("name", "40"));
+message.member.removeRole(message.guild.roles.find("name", "41"));
+message.member.removeRole(message.guild.roles.find("name", "42"));
+message.member.removeRole(message.guild.roles.find("name", "43"));
+message.member.removeRole(message.guild.roles.find("name", "44"));
+	const embed = new Discord.RichEmbed()
+ 	.setFooter('Requested by '+message.author.username, message.author.avatarURL)
+   .setDescription(`تم تغير اللون بنجاح`)
+  message.channel.sendEmbed(embed);
+	}
+	
+	if (message.content === x29) {
+    if(!message.channel.guild) return;
+		message.member.removeRole(message.guild.roles.find("name", "1"));
+    message.member.removeRole(message.guild.roles.find("name", "2"));
+    message.member.removeRole(message.guild.roles.find("name", "3"));
+    message.member.removeRole(message.guild.roles.find("name", "4"));
+    message.member.removeRole(message.guild.roles.find("name", "5"));
+    message.member.removeRole(message.guild.roles.find("name", "6"));
+    message.member.removeRole(message.guild.roles.find("name", "7"));
+    message.member.removeRole(message.guild.roles.find("name", "8"));
+    message.member.removeRole(message.guild.roles.find("name", "9"));
+     message.member.removeRole(message.guild.roles.find("name", "10"));
+		message.member.removeRole(message.guild.roles.find("name", "11"));
+	message.member.removeRole(message.guild.roles.find("name", "12"));
+	message.member.removeRole(message.guild.roles.find("name", "13"));
+	message.member.removeRole(message.guild.roles.find("name", "14"));
+	message.member.removeRole(message.guild.roles.find("name", "15"));
+	message.member.removeRole(message.guild.roles.find("name", "16"));
+	message.member.removeRole(message.guild.roles.find("name", "17"));
+	message.member.removeRole(message.guild.roles.find("name", "18"));
+	message.member.removeRole(message.guild.roles.find("name", "19"));
+	message.member.removeRole(message.guild.roles.find("name", "20"));
+	message.member.removeRole(message.guild.roles.find("name", "21"));
+	message.member.removeRole(message.guild.roles.find("name", "22"));
+	message.member.removeRole(message.guild.roles.find("name", "23"));
+	message.member.removeRole(message.guild.roles.find("name", "24"));
+	message.member.removeRole(message.guild.roles.find("name", "25"));
+	message.member.removeRole(message.guild.roles.find("name", "26"));
+	message.member.removeRole(message.guild.roles.find("name", "27"));
+	message.member.removeRole(message.guild.roles.find("name", "28"));
+message.member.addRole(message.guild.roles.find("name", "29"));
+	message.member.removeRole(message.guild.roles.find("name", "30"));
+	message.member.removeRole(message.guild.roles.find("name", "31"));
+	message.member.removeRole(message.guild.roles.find("name", "32"));
+message.member.removeRole(message.guild.roles.find("name", "33"));
+message.member.removeRole(message.guild.roles.find("name", "34"));
+message.member.removeRole(message.guild.roles.find("name", "35"));
+message.member.removeRole(message.guild.roles.find("name", "36"));
+message.member.removeRole(message.guild.roles.find("name", "37"));
+message.member.removeRole(message.guild.roles.find("name", "38"));
+message.member.removeRole(message.guild.roles.find("name", "39"));
+message.member.removeRole(message.guild.roles.find("name", "40"));
+message.member.removeRole(message.guild.roles.find("name", "41"));
+message.member.removeRole(message.guild.roles.find("name", "42"));
+message.member.removeRole(message.guild.roles.find("name", "43"));
+message.member.removeRole(message.guild.roles.find("name", "44"));
+	const embed = new Discord.RichEmbed()
+ 	.setFooter('Requested by '+message.author.username, message.author.avatarURL)
+   .setDescription(`تم تغير اللون بنجاح`)
+  message.channel.sendEmbed(embed);
+	}
+	
+	if (message.content === x30) {
+    if(!message.channel.guild) return;
+		message.member.removeRole(message.guild.roles.find("name", "1"));
+    message.member.removeRole(message.guild.roles.find("name", "2"));
+    message.member.removeRole(message.guild.roles.find("name", "3"));
+    message.member.removeRole(message.guild.roles.find("name", "4"));
+    message.member.removeRole(message.guild.roles.find("name", "5"));
+    message.member.removeRole(message.guild.roles.find("name", "6"));
+    message.member.removeRole(message.guild.roles.find("name", "7"));
+    message.member.removeRole(message.guild.roles.find("name", "8"));
+    message.member.removeRole(message.guild.roles.find("name", "9"));
+     message.member.removeRole(message.guild.roles.find("name", "10"));
+		message.member.removeRole(message.guild.roles.find("name", "11"));
+	message.member.removeRole(message.guild.roles.find("name", "12"));
+	message.member.removeRole(message.guild.roles.find("name", "13"));
+	message.member.removeRole(message.guild.roles.find("name", "14"));
+	message.member.removeRole(message.guild.roles.find("name", "15"));
+	message.member.removeRole(message.guild.roles.find("name", "16"));
+	message.member.removeRole(message.guild.roles.find("name", "17"));
+	message.member.removeRole(message.guild.roles.find("name", "18"));
+	message.member.removeRole(message.guild.roles.find("name", "19"));
+	message.member.removeRole(message.guild.roles.find("name", "20"));
+	message.member.removeRole(message.guild.roles.find("name", "21"));
+	message.member.removeRole(message.guild.roles.find("name", "22"));
+	message.member.removeRole(message.guild.roles.find("name", "23"));
+	message.member.removeRole(message.guild.roles.find("name", "24"));
+	message.member.removeRole(message.guild.roles.find("name", "25"));
+	message.member.removeRole(message.guild.roles.find("name", "26"));
+	message.member.removeRole(message.guild.roles.find("name", "27"));
+	message.member.removeRole(message.guild.roles.find("name", "28"));
+	message.member.removeRole(message.guild.roles.find("name", "29"));
+message.member.addRole(message.guild.roles.find("name", "30"));
+	message.member.removeRole(message.guild.roles.find("name", "31"));
+	message.member.removeRole(message.guild.roles.find("name", "32"));
+message.member.removeRole(message.guild.roles.find("name", "33"));
+message.member.removeRole(message.guild.roles.find("name", "34"));
+message.member.removeRole(message.guild.roles.find("name", "35"));
+message.member.removeRole(message.guild.roles.find("name", "36"));
+message.member.removeRole(message.guild.roles.find("name", "37"));
+message.member.removeRole(message.guild.roles.find("name", "38"));
+message.member.removeRole(message.guild.roles.find("name", "39"));
+message.member.removeRole(message.guild.roles.find("name", "40"));
+message.member.removeRole(message.guild.roles.find("name", "41"));
+message.member.removeRole(message.guild.roles.find("name", "42"));
+message.member.removeRole(message.guild.roles.find("name", "43"));
+message.member.removeRole(message.guild.roles.find("name", "44"));
+	const embed = new Discord.RichEmbed()
+ 	.setFooter('Requested by '+message.author.username, message.author.avatarURL)
+   .setDescription(`تم تغير اللون بنجاح`)
+  message.channel.sendEmbed(embed);
+	}
+	
+	if (message.content === x31) {
+    if(!message.channel.guild) return;
+		message.member.removeRole(message.guild.roles.find("name", "1"));
+    message.member.removeRole(message.guild.roles.find("name", "2"));
+    message.member.removeRole(message.guild.roles.find("name", "3"));
+    message.member.removeRole(message.guild.roles.find("name", "4"));
+    message.member.removeRole(message.guild.roles.find("name", "5"));
+    message.member.removeRole(message.guild.roles.find("name", "6"));
+    message.member.removeRole(message.guild.roles.find("name", "7"));
+    message.member.removeRole(message.guild.roles.find("name", "8"));
+    message.member.removeRole(message.guild.roles.find("name", "9"));
+     message.member.removeRole(message.guild.roles.find("name", "10"));
+		message.member.removeRole(message.guild.roles.find("name", "11"));
+	message.member.removeRole(message.guild.roles.find("name", "12"));
+	message.member.removeRole(message.guild.roles.find("name", "13"));
+	message.member.removeRole(message.guild.roles.find("name", "14"));
+	message.member.removeRole(message.guild.roles.find("name", "15"));
+	message.member.removeRole(message.guild.roles.find("name", "16"));
+	message.member.removeRole(message.guild.roles.find("name", "17"));
+	message.member.removeRole(message.guild.roles.find("name", "18"));
+	message.member.removeRole(message.guild.roles.find("name", "19"));
+	message.member.removeRole(message.guild.roles.find("name", "20"));
+	message.member.removeRole(message.guild.roles.find("name", "21"));
+	message.member.removeRole(message.guild.roles.find("name", "22"));
+	message.member.removeRole(message.guild.roles.find("name", "23"));
+	message.member.removeRole(message.guild.roles.find("name", "24"));
+	message.member.removeRole(message.guild.roles.find("name", "25"));
+	message.member.removeRole(message.guild.roles.find("name", "26"));
+	message.member.removeRole(message.guild.roles.find("name", "27"));
+	message.member.removeRole(message.guild.roles.find("name", "28"));
+	message.member.removeRole(message.guild.roles.find("name", "29"));
+	message.member.removeRole(message.guild.roles.find("name", "30"));
+message.member.addRole(message.guild.roles.find("name", "31"));
+	message.member.removeRole(message.guild.roles.find("name", "32"));
+message.member.removeRole(message.guild.roles.find("name", "33"));
+message.member.removeRole(message.guild.roles.find("name", "34"));
+message.member.removeRole(message.guild.roles.find("name", "35"));
+message.member.removeRole(message.guild.roles.find("name", "36"));
+message.member.removeRole(message.guild.roles.find("name", "37"));
+message.member.removeRole(message.guild.roles.find("name", "38"));
+message.member.removeRole(message.guild.roles.find("name", "39"));
+message.member.removeRole(message.guild.roles.find("name", "40"));
+message.member.removeRole(message.guild.roles.find("name", "41"));
+message.member.removeRole(message.guild.roles.find("name", "42"));
+message.member.removeRole(message.guild.roles.find("name", "43"));
+message.member.removeRole(message.guild.roles.find("name", "44"));
+	const embed = new Discord.RichEmbed()
+ 	.setFooter('Requested by '+message.author.username, message.author.avatarURL)
+   .setDescription(`تم تغير اللون بنجاح`)
+  message.channel.sendEmbed(embed);
+	}
+	
+	if (message.content === x32) {
+    if(!message.channel.guild) return;
+		message.member.removeRole(message.guild.roles.find("name", "1"));
+    message.member.removeRole(message.guild.roles.find("name", "2"));
+    message.member.removeRole(message.guild.roles.find("name", "3"));
+    message.member.removeRole(message.guild.roles.find("name", "4"));
+    message.member.removeRole(message.guild.roles.find("name", "5"));
+    message.member.removeRole(message.guild.roles.find("name", "6"));
+    message.member.removeRole(message.guild.roles.find("name", "7"));
+    message.member.removeRole(message.guild.roles.find("name", "8"));
+    message.member.removeRole(message.guild.roles.find("name", "9"));
+     message.member.removeRole(message.guild.roles.find("name", "10"));
+		message.member.removeRole(message.guild.roles.find("name", "11"));
+	message.member.removeRole(message.guild.roles.find("name", "12"));
+	message.member.removeRole(message.guild.roles.find("name", "13"));
+	message.member.removeRole(message.guild.roles.find("name", "14"));
+	message.member.removeRole(message.guild.roles.find("name", "15"));
+	message.member.removeRole(message.guild.roles.find("name", "16"));
+	message.member.removeRole(message.guild.roles.find("name", "17"));
+	message.member.removeRole(message.guild.roles.find("name", "18"));
+	message.member.removeRole(message.guild.roles.find("name", "19"));
+	message.member.removeRole(message.guild.roles.find("name", "20"));
+	message.member.removeRole(message.guild.roles.find("name", "21"));
+	message.member.removeRole(message.guild.roles.find("name", "22"));
+	message.member.removeRole(message.guild.roles.find("name", "23"));
+	message.member.removeRole(message.guild.roles.find("name", "24"));
+	message.member.removeRole(message.guild.roles.find("name", "25"));
+	message.member.removeRole(message.guild.roles.find("name", "26"));
+	message.member.removeRole(message.guild.roles.find("name", "27"));
+	message.member.removeRole(message.guild.roles.find("name", "28"));
+	message.member.removeRole(message.guild.roles.find("name", "29"));
+	message.member.removeRole(message.guild.roles.find("name", "30"));
+	message.member.removeRole(message.guild.roles.find("name", "31"));
+message.member.addRole(message.guild.roles.find("name", "32"));
+message.member.removeRole(message.guild.roles.find("name", "33"));
+message.member.removeRole(message.guild.roles.find("name", "34"));
+message.member.removeRole(message.guild.roles.find("name", "35"));
+message.member.removeRole(message.guild.roles.find("name", "36"));
+message.member.removeRole(message.guild.roles.find("name", "37"));
+message.member.removeRole(message.guild.roles.find("name", "38"));
+message.member.removeRole(message.guild.roles.find("name", "39"));
+message.member.removeRole(message.guild.roles.find("name", "40"));
+message.member.removeRole(message.guild.roles.find("name", "41"));
+message.member.removeRole(message.guild.roles.find("name", "42"));
+message.member.removeRole(message.guild.roles.find("name", "43"));
+message.member.removeRole(message.guild.roles.find("name", "44"));
+	const embed = new Discord.RichEmbed()
+ 	.setFooter('Requested by '+message.author.username, message.author.avatarURL)
+   .setDescription(`تم تغير اللون بنجاح`)
+  message.channel.sendEmbed(embed);
+	}
+	
+	if (message.content === x33) {
+    if(!message.channel.guild) return;
+		message.member.removeRole(message.guild.roles.find("name", "1"));
+    message.member.removeRole(message.guild.roles.find("name", "2"));
+    message.member.removeRole(message.guild.roles.find("name", "3"));
+    message.member.removeRole(message.guild.roles.find("name", "4"));
+    message.member.removeRole(message.guild.roles.find("name", "5"));
+    message.member.removeRole(message.guild.roles.find("name", "6"));
+    message.member.removeRole(message.guild.roles.find("name", "7"));
+    message.member.removeRole(message.guild.roles.find("name", "8"));
+    message.member.removeRole(message.guild.roles.find("name", "9"));
+     message.member.removeRole(message.guild.roles.find("name", "10"));
+		message.member.removeRole(message.guild.roles.find("name", "11"));
+	message.member.removeRole(message.guild.roles.find("name", "12"));
+	message.member.removeRole(message.guild.roles.find("name", "13"));
+	message.member.removeRole(message.guild.roles.find("name", "14"));
+	message.member.removeRole(message.guild.roles.find("name", "15"));
+	message.member.removeRole(message.guild.roles.find("name", "16"));
+	message.member.removeRole(message.guild.roles.find("name", "17"));
+	message.member.removeRole(message.guild.roles.find("name", "18"));
+	message.member.removeRole(message.guild.roles.find("name", "19"));
+	message.member.removeRole(message.guild.roles.find("name", "20"));
+	message.member.removeRole(message.guild.roles.find("name", "21"));
+	message.member.removeRole(message.guild.roles.find("name", "22"));
+	message.member.removeRole(message.guild.roles.find("name", "23"));
+	message.member.removeRole(message.guild.roles.find("name", "24"));
+	message.member.removeRole(message.guild.roles.find("name", "25"));
+	message.member.removeRole(message.guild.roles.find("name", "26"));
+	message.member.removeRole(message.guild.roles.find("name", "27"));
+	message.member.removeRole(message.guild.roles.find("name", "28"));
+	message.member.removeRole(message.guild.roles.find("name", "29"));
+	message.member.removeRole(message.guild.roles.find("name", "30"));
+	message.member.removeRole(message.guild.roles.find("name", "31"));
+	message.member.removeRole(message.guild.roles.find("name", "32"));
+message.member.addRole(message.guild.roles.find("name", "33"));
+message.member.removeRole(message.guild.roles.find("name", "34"));
+message.member.removeRole(message.guild.roles.find("name", "35"));
+message.member.removeRole(message.guild.roles.find("name", "36"));
+message.member.removeRole(message.guild.roles.find("name", "37"));
+message.member.removeRole(message.guild.roles.find("name", "38"));
+message.member.removeRole(message.guild.roles.find("name", "39"));
+message.member.removeRole(message.guild.roles.find("name", "40"));
+message.member.removeRole(message.guild.roles.find("name", "41"));
+message.member.removeRole(message.guild.roles.find("name", "42"));
+message.member.removeRole(message.guild.roles.find("name", "43"));
+message.member.removeRole(message.guild.roles.find("name", "44"));
+	const embed = new Discord.RichEmbed()
+ 	.setFooter('Requested by '+message.author.username, message.author.avatarURL)
+   .setDescription(`تم تغير اللون بنجاح`)
+  message.channel.sendEmbed(embed);
+	}
+	
+	if (message.content === x34) {
+    if(!message.channel.guild) return;
+		message.member.removeRole(message.guild.roles.find("name", "1"));
+    message.member.removeRole(message.guild.roles.find("name", "2"));
+    message.member.removeRole(message.guild.roles.find("name", "3"));
+    message.member.removeRole(message.guild.roles.find("name", "4"));
+    message.member.removeRole(message.guild.roles.find("name", "5"));
+    message.member.removeRole(message.guild.roles.find("name", "6"));
+    message.member.removeRole(message.guild.roles.find("name", "7"));
+    message.member.removeRole(message.guild.roles.find("name", "8"));
+    message.member.removeRole(message.guild.roles.find("name", "9"));
+     message.member.removeRole(message.guild.roles.find("name", "10"));
+		message.member.removeRole(message.guild.roles.find("name", "11"));
+	message.member.removeRole(message.guild.roles.find("name", "12"));
+	message.member.removeRole(message.guild.roles.find("name", "13"));
+	message.member.removeRole(message.guild.roles.find("name", "14"));
+	message.member.removeRole(message.guild.roles.find("name", "15"));
+	message.member.removeRole(message.guild.roles.find("name", "16"));
+	message.member.removeRole(message.guild.roles.find("name", "17"));
+	message.member.removeRole(message.guild.roles.find("name", "18"));
+	message.member.removeRole(message.guild.roles.find("name", "19"));
+	message.member.removeRole(message.guild.roles.find("name", "20"));
+	message.member.removeRole(message.guild.roles.find("name", "21"));
+	message.member.removeRole(message.guild.roles.find("name", "22"));
+	message.member.removeRole(message.guild.roles.find("name", "23"));
+	message.member.removeRole(message.guild.roles.find("name", "24"));
+	message.member.removeRole(message.guild.roles.find("name", "25"));
+	message.member.removeRole(message.guild.roles.find("name", "26"));
+	message.member.removeRole(message.guild.roles.find("name", "27"));
+	message.member.removeRole(message.guild.roles.find("name", "28"));
+	message.member.removeRole(message.guild.roles.find("name", "29"));
+	message.member.removeRole(message.guild.roles.find("name", "30"));
+	message.member.removeRole(message.guild.roles.find("name", "31"));
+	message.member.removeRole(message.guild.roles.find("name", "32"));
+message.member.removeRole(message.guild.roles.find("name", "33"));
+message.member.addRole(message.guild.roles.find("name", "34"));
+message.member.removeRole(message.guild.roles.find("name", "35"));
+message.member.removeRole(message.guild.roles.find("name", "36"));
+message.member.removeRole(message.guild.roles.find("name", "37"));
+message.member.removeRole(message.guild.roles.find("name", "38"));
+message.member.removeRole(message.guild.roles.find("name", "39"));
+message.member.removeRole(message.guild.roles.find("name", "40"));
+message.member.removeRole(message.guild.roles.find("name", "41"));
+message.member.removeRole(message.guild.roles.find("name", "42"));
+message.member.removeRole(message.guild.roles.find("name", "43"));
+message.member.removeRole(message.guild.roles.find("name", "44"));
+	const embed = new Discord.RichEmbed()
+ 	.setFooter('Requested by '+message.author.username, message.author.avatarURL)
+   .setDescription(`تم تغير اللون بنجاح`)
+  message.channel.sendEmbed(embed);
+	}
+	
+	if (message.content === x35) {
+    if(!message.channel.guild) return;
+		message.member.removeRole(message.guild.roles.find("name", "1"));
+    message.member.removeRole(message.guild.roles.find("name", "2"));
+    message.member.removeRole(message.guild.roles.find("name", "3"));
+    message.member.removeRole(message.guild.roles.find("name", "4"));
+    message.member.removeRole(message.guild.roles.find("name", "5"));
+    message.member.removeRole(message.guild.roles.find("name", "6"));
+    message.member.removeRole(message.guild.roles.find("name", "7"));
+    message.member.removeRole(message.guild.roles.find("name", "8"));
+    message.member.removeRole(message.guild.roles.find("name", "9"));
+     message.member.removeRole(message.guild.roles.find("name", "10"));
+		message.member.removeRole(message.guild.roles.find("name", "11"));
+	message.member.removeRole(message.guild.roles.find("name", "12"));
+	message.member.removeRole(message.guild.roles.find("name", "13"));
+	message.member.removeRole(message.guild.roles.find("name", "14"));
+	message.member.removeRole(message.guild.roles.find("name", "15"));
+	message.member.removeRole(message.guild.roles.find("name", "16"));
+	message.member.removeRole(message.guild.roles.find("name", "17"));
+	message.member.removeRole(message.guild.roles.find("name", "18"));
+	message.member.removeRole(message.guild.roles.find("name", "19"));
+	message.member.removeRole(message.guild.roles.find("name", "20"));
+	message.member.removeRole(message.guild.roles.find("name", "21"));
+	message.member.removeRole(message.guild.roles.find("name", "22"));
+	message.member.removeRole(message.guild.roles.find("name", "23"));
+	message.member.removeRole(message.guild.roles.find("name", "24"));
+	message.member.removeRole(message.guild.roles.find("name", "25"));
+	message.member.removeRole(message.guild.roles.find("name", "26"));
+	message.member.removeRole(message.guild.roles.find("name", "27"));
+	message.member.removeRole(message.guild.roles.find("name", "28"));
+	message.member.removeRole(message.guild.roles.find("name", "29"));
+	message.member.removeRole(message.guild.roles.find("name", "30"));
+	message.member.removeRole(message.guild.roles.find("name", "31"));
+	message.member.removeRole(message.guild.roles.find("name", "32"));
+message.member.removeRole(message.guild.roles.find("name", "33"));
+message.member.removeRole(message.guild.roles.find("name", "34"));
+message.member.addRole(message.guild.roles.find("name", "35"));
+message.member.removeRole(message.guild.roles.find("name", "36"));
+message.member.removeRole(message.guild.roles.find("name", "37"));
+message.member.removeRole(message.guild.roles.find("name", "38"));
+message.member.removeRole(message.guild.roles.find("name", "39"));
+message.member.removeRole(message.guild.roles.find("name", "40"));
+message.member.removeRole(message.guild.roles.find("name", "41"));
+message.member.removeRole(message.guild.roles.find("name", "42"));
+message.member.removeRole(message.guild.roles.find("name", "43"));
+message.member.removeRole(message.guild.roles.find("name", "44"));
+	const embed = new Discord.RichEmbed()
+ 	.setFooter('Requested by '+message.author.username, message.author.avatarURL)
+   .setDescription(`تم تغير اللون بنجاح`)
+  message.channel.sendEmbed(embed);
+	}
+	
+	if (message.content === x36) {
+    if(!message.channel.guild) return;
+		message.member.removeRole(message.guild.roles.find("name", "1"));
+    message.member.removeRole(message.guild.roles.find("name", "2"));
+    message.member.removeRole(message.guild.roles.find("name", "3"));
+    message.member.removeRole(message.guild.roles.find("name", "4"));
+    message.member.removeRole(message.guild.roles.find("name", "5"));
+    message.member.removeRole(message.guild.roles.find("name", "6"));
+    message.member.removeRole(message.guild.roles.find("name", "7"));
+    message.member.removeRole(message.guild.roles.find("name", "8"));
+    message.member.removeRole(message.guild.roles.find("name", "9"));
+     message.member.removeRole(message.guild.roles.find("name", "10"));
+		message.member.removeRole(message.guild.roles.find("name", "11"));
+	message.member.removeRole(message.guild.roles.find("name", "12"));
+	message.member.removeRole(message.guild.roles.find("name", "13"));
+	message.member.removeRole(message.guild.roles.find("name", "14"));
+	message.member.removeRole(message.guild.roles.find("name", "15"));
+	message.member.removeRole(message.guild.roles.find("name", "16"));
+	message.member.removeRole(message.guild.roles.find("name", "17"));
+	message.member.removeRole(message.guild.roles.find("name", "18"));
+	message.member.removeRole(message.guild.roles.find("name", "19"));
+	message.member.removeRole(message.guild.roles.find("name", "20"));
+	message.member.removeRole(message.guild.roles.find("name", "21"));
+	message.member.removeRole(message.guild.roles.find("name", "22"));
+	message.member.removeRole(message.guild.roles.find("name", "23"));
+	message.member.removeRole(message.guild.roles.find("name", "24"));
+	message.member.removeRole(message.guild.roles.find("name", "25"));
+	message.member.removeRole(message.guild.roles.find("name", "26"));
+	message.member.removeRole(message.guild.roles.find("name", "27"));
+	message.member.removeRole(message.guild.roles.find("name", "28"));
+	message.member.removeRole(message.guild.roles.find("name", "29"));
+	message.member.removeRole(message.guild.roles.find("name", "30"));
+	message.member.removeRole(message.guild.roles.find("name", "31"));
+	message.member.removeRole(message.guild.roles.find("name", "32"));
+message.member.removeRole(message.guild.roles.find("name", "33"));
+message.member.removeRole(message.guild.roles.find("name", "34"));
+message.member.removeRole(message.guild.roles.find("name", "35"));
+message.member.addRole(message.guild.roles.find("name", "36"));
+message.member.removeRole(message.guild.roles.find("name", "37"));
+message.member.removeRole(message.guild.roles.find("name", "38"));
+message.member.removeRole(message.guild.roles.find("name", "39"));
+message.member.removeRole(message.guild.roles.find("name", "40"));
+message.member.removeRole(message.guild.roles.find("name", "41"));
+message.member.removeRole(message.guild.roles.find("name", "42"));
+message.member.removeRole(message.guild.roles.find("name", "43"));
+message.member.removeRole(message.guild.roles.find("name", "44"));
+	const embed = new Discord.RichEmbed()
+ 	.setFooter('Requested by '+message.author.username, message.author.avatarURL)
+   .setDescription(`تم تغير اللون بنجاح`)
+  message.channel.sendEmbed(embed);
+	}
+	
+	if (message.content === x37) {
+    if(!message.channel.guild) return;
+		message.member.removeRole(message.guild.roles.find("name", "1"));
+    message.member.removeRole(message.guild.roles.find("name", "2"));
+    message.member.removeRole(message.guild.roles.find("name", "3"));
+    message.member.removeRole(message.guild.roles.find("name", "4"));
+    message.member.removeRole(message.guild.roles.find("name", "5"));
+    message.member.removeRole(message.guild.roles.find("name", "6"));
+    message.member.removeRole(message.guild.roles.find("name", "7"));
+    message.member.removeRole(message.guild.roles.find("name", "8"));
+    message.member.removeRole(message.guild.roles.find("name", "9"));
+     message.member.removeRole(message.guild.roles.find("name", "10"));
+		message.member.removeRole(message.guild.roles.find("name", "11"));
+	message.member.removeRole(message.guild.roles.find("name", "12"));
+	message.member.removeRole(message.guild.roles.find("name", "13"));
+	message.member.removeRole(message.guild.roles.find("name", "14"));
+	message.member.removeRole(message.guild.roles.find("name", "15"));
+	message.member.removeRole(message.guild.roles.find("name", "16"));
+	message.member.removeRole(message.guild.roles.find("name", "17"));
+	message.member.removeRole(message.guild.roles.find("name", "18"));
+	message.member.removeRole(message.guild.roles.find("name", "19"));
+	message.member.removeRole(message.guild.roles.find("name", "20"));
+	message.member.removeRole(message.guild.roles.find("name", "21"));
+	message.member.removeRole(message.guild.roles.find("name", "22"));
+	message.member.removeRole(message.guild.roles.find("name", "23"));
+	message.member.removeRole(message.guild.roles.find("name", "24"));
+	message.member.removeRole(message.guild.roles.find("name", "25"));
+	message.member.removeRole(message.guild.roles.find("name", "26"));
+	message.member.removeRole(message.guild.roles.find("name", "27"));
+	message.member.removeRole(message.guild.roles.find("name", "28"));
+	message.member.removeRole(message.guild.roles.find("name", "29"));
+	message.member.removeRole(message.guild.roles.find("name", "30"));
+	message.member.removeRole(message.guild.roles.find("name", "31"));
+	message.member.removeRole(message.guild.roles.find("name", "32"));
+message.member.removeRole(message.guild.roles.find("name", "33"));
+message.member.removeRole(message.guild.roles.find("name", "34"));
+message.member.removeRole(message.guild.roles.find("name", "35"));
+message.member.removeRole(message.guild.roles.find("name", "36"));
+message.member.addRole(message.guild.roles.find("name", "37"));
+message.member.removeRole(message.guild.roles.find("name", "38"));
+message.member.removeRole(message.guild.roles.find("name", "39"));
+message.member.removeRole(message.guild.roles.find("name", "40"));
+message.member.removeRole(message.guild.roles.find("name", "41"));
+message.member.removeRole(message.guild.roles.find("name", "42"));
+message.member.removeRole(message.guild.roles.find("name", "43"));
+message.member.removeRole(message.guild.roles.find("name", "44"));
+	const embed = new Discord.RichEmbed()
+ 	.setFooter('Requested by '+message.author.username, message.author.avatarURL)
+   .setDescription(`تم تغير اللون بنجاح`)
+  message.channel.sendEmbed(embed);
+	}
+	
+	if (message.content === x38) {
+    if(!message.channel.guild) return;
+		message.member.removeRole(message.guild.roles.find("name", "1"));
+    message.member.removeRole(message.guild.roles.find("name", "2"));
+    message.member.removeRole(message.guild.roles.find("name", "3"));
+    message.member.removeRole(message.guild.roles.find("name", "4"));
+    message.member.removeRole(message.guild.roles.find("name", "5"));
+    message.member.removeRole(message.guild.roles.find("name", "6"));
+    message.member.removeRole(message.guild.roles.find("name", "7"));
+    message.member.removeRole(message.guild.roles.find("name", "8"));
+    message.member.removeRole(message.guild.roles.find("name", "9"));
+     message.member.removeRole(message.guild.roles.find("name", "10"));
+		message.member.removeRole(message.guild.roles.find("name", "11"));
+	message.member.removeRole(message.guild.roles.find("name", "12"));
+	message.member.removeRole(message.guild.roles.find("name", "13"));
+	message.member.removeRole(message.guild.roles.find("name", "14"));
+	message.member.removeRole(message.guild.roles.find("name", "15"));
+	message.member.removeRole(message.guild.roles.find("name", "16"));
+	message.member.removeRole(message.guild.roles.find("name", "17"));
+	message.member.removeRole(message.guild.roles.find("name", "18"));
+	message.member.removeRole(message.guild.roles.find("name", "19"));
+	message.member.removeRole(message.guild.roles.find("name", "20"));
+	message.member.removeRole(message.guild.roles.find("name", "21"));
+	message.member.removeRole(message.guild.roles.find("name", "22"));
+	message.member.removeRole(message.guild.roles.find("name", "23"));
+	message.member.removeRole(message.guild.roles.find("name", "24"));
+	message.member.removeRole(message.guild.roles.find("name", "25"));
+	message.member.removeRole(message.guild.roles.find("name", "26"));
+	message.member.removeRole(message.guild.roles.find("name", "27"));
+	message.member.removeRole(message.guild.roles.find("name", "28"));
+	message.member.removeRole(message.guild.roles.find("name", "29"));
+	message.member.removeRole(message.guild.roles.find("name", "30"));
+	message.member.removeRole(message.guild.roles.find("name", "31"));
+	message.member.removeRole(message.guild.roles.find("name", "32"));
+message.member.removeRole(message.guild.roles.find("name", "33"));
+message.member.removeRole(message.guild.roles.find("name", "34"));
+message.member.removeRole(message.guild.roles.find("name", "35"));
+message.member.removeRole(message.guild.roles.find("name", "36"));
+message.member.removeRole(message.guild.roles.find("name", "37"));
+message.member.addRole(message.guild.roles.find("name", "38"));
+message.member.removeRole(message.guild.roles.find("name", "39"));
+message.member.removeRole(message.guild.roles.find("name", "40"));
+message.member.removeRole(message.guild.roles.find("name", "41"));
+message.member.removeRole(message.guild.roles.find("name", "42"));
+message.member.removeRole(message.guild.roles.find("name", "43"));
+message.member.removeRole(message.guild.roles.find("name", "44"));
+	const embed = new Discord.RichEmbed()
+ 	.setFooter('Requested by '+message.author.username, message.author.avatarURL)
+   .setDescription(`تم تغير اللون بنجاح`)
+  message.channel.sendEmbed(embed);
+	}
+	
+	if (message.content === x39) {
+    if(!message.channel.guild) return;
+		message.member.removeRole(message.guild.roles.find("name", "1"));
+    message.member.removeRole(message.guild.roles.find("name", "2"));
+    message.member.removeRole(message.guild.roles.find("name", "3"));
+    message.member.removeRole(message.guild.roles.find("name", "4"));
+    message.member.removeRole(message.guild.roles.find("name", "5"));
+    message.member.removeRole(message.guild.roles.find("name", "6"));
+    message.member.removeRole(message.guild.roles.find("name", "7"));
+    message.member.removeRole(message.guild.roles.find("name", "8"));
+    message.member.removeRole(message.guild.roles.find("name", "9"));
+     message.member.removeRole(message.guild.roles.find("name", "10"));
+		message.member.removeRole(message.guild.roles.find("name", "11"));
+	message.member.removeRole(message.guild.roles.find("name", "12"));
+	message.member.removeRole(message.guild.roles.find("name", "13"));
+	message.member.removeRole(message.guild.roles.find("name", "14"));
+	message.member.removeRole(message.guild.roles.find("name", "15"));
+	message.member.removeRole(message.guild.roles.find("name", "16"));
+	message.member.removeRole(message.guild.roles.find("name", "17"));
+	message.member.removeRole(message.guild.roles.find("name", "18"));
+	message.member.removeRole(message.guild.roles.find("name", "19"));
+	message.member.removeRole(message.guild.roles.find("name", "20"));
+	message.member.removeRole(message.guild.roles.find("name", "21"));
+	message.member.removeRole(message.guild.roles.find("name", "22"));
+	message.member.removeRole(message.guild.roles.find("name", "23"));
+	message.member.removeRole(message.guild.roles.find("name", "24"));
+	message.member.removeRole(message.guild.roles.find("name", "25"));
+	message.member.removeRole(message.guild.roles.find("name", "26"));
+	message.member.removeRole(message.guild.roles.find("name", "27"));
+	message.member.removeRole(message.guild.roles.find("name", "28"));
+	message.member.removeRole(message.guild.roles.find("name", "29"));
+	message.member.removeRole(message.guild.roles.find("name", "30"));
+	message.member.removeRole(message.guild.roles.find("name", "31"));
+	message.member.removeRole(message.guild.roles.find("name", "32"));
+message.member.removeRole(message.guild.roles.find("name", "33"));
+message.member.removeRole(message.guild.roles.find("name", "34"));
+message.member.removeRole(message.guild.roles.find("name", "35"));
+message.member.removeRole(message.guild.roles.find("name", "36"));
+message.member.removeRole(message.guild.roles.find("name", "37"));
+message.member.removeRole(message.guild.roles.find("name", "38"));
+message.member.addRole(message.guild.roles.find("name", "39"));
+message.member.removeRole(message.guild.roles.find("name", "40"));
+message.member.removeRole(message.guild.roles.find("name", "41"));
+message.member.removeRole(message.guild.roles.find("name", "42"));
+message.member.removeRole(message.guild.roles.find("name", "43"));
+message.member.removeRole(message.guild.roles.find("name", "44"));
+	const embed = new Discord.RichEmbed()
+ 	.setFooter('Requested by '+message.author.username, message.author.avatarURL)
+   .setDescription(`تم تغير اللون بنجاح`)
+  message.channel.sendEmbed(embed);
+	}
+	
+	if (message.content === x40) {
+    if(!message.channel.guild) return;
+		message.member.removeRole(message.guild.roles.find("name", "1"));
+    message.member.removeRole(message.guild.roles.find("name", "2"));
+    message.member.removeRole(message.guild.roles.find("name", "3"));
+    message.member.removeRole(message.guild.roles.find("name", "4"));
+    message.member.removeRole(message.guild.roles.find("name", "5"));
+    message.member.removeRole(message.guild.roles.find("name", "6"));
+    message.member.removeRole(message.guild.roles.find("name", "7"));
+    message.member.removeRole(message.guild.roles.find("name", "8"));
+    message.member.removeRole(message.guild.roles.find("name", "9"));
+     message.member.removeRole(message.guild.roles.find("name", "10"));
+		message.member.removeRole(message.guild.roles.find("name", "11"));
+	message.member.removeRole(message.guild.roles.find("name", "12"));
+	message.member.removeRole(message.guild.roles.find("name", "13"));
+	message.member.removeRole(message.guild.roles.find("name", "14"));
+	message.member.removeRole(message.guild.roles.find("name", "15"));
+	message.member.removeRole(message.guild.roles.find("name", "16"));
+	message.member.removeRole(message.guild.roles.find("name", "17"));
+	message.member.removeRole(message.guild.roles.find("name", "18"));
+	message.member.removeRole(message.guild.roles.find("name", "19"));
+	message.member.removeRole(message.guild.roles.find("name", "20"));
+	message.member.removeRole(message.guild.roles.find("name", "21"));
+	message.member.removeRole(message.guild.roles.find("name", "22"));
+	message.member.removeRole(message.guild.roles.find("name", "23"));
+	message.member.removeRole(message.guild.roles.find("name", "24"));
+	message.member.removeRole(message.guild.roles.find("name", "25"));
+	message.member.removeRole(message.guild.roles.find("name", "26"));
+	message.member.removeRole(message.guild.roles.find("name", "27"));
+	message.member.removeRole(message.guild.roles.find("name", "28"));
+	message.member.removeRole(message.guild.roles.find("name", "29"));
+	message.member.removeRole(message.guild.roles.find("name", "30"));
+	message.member.removeRole(message.guild.roles.find("name", "31"));
+	message.member.removeRole(message.guild.roles.find("name", "32"));
+message.member.removeRole(message.guild.roles.find("name", "33"));
+message.member.removeRole(message.guild.roles.find("name", "34"));
+message.member.removeRole(message.guild.roles.find("name", "35"));
+message.member.removeRole(message.guild.roles.find("name", "36"));
+message.member.removeRole(message.guild.roles.find("name", "37"));
+message.member.removeRole(message.guild.roles.find("name", "38"));
+message.member.removeRole(message.guild.roles.find("name", "39"));
+message.member.addRole(message.guild.roles.find("name", "40"));
+message.member.removeRole(message.guild.roles.find("name", "41"));
+message.member.removeRole(message.guild.roles.find("name", "42"));
+message.member.removeRole(message.guild.roles.find("name", "43"));
+message.member.removeRole(message.guild.roles.find("name", "44"));
+	const embed = new Discord.RichEmbed()
+ 	.setFooter('Requested by '+message.author.username, message.author.avatarURL)
+   .setDescription(`تم تغير اللون بنجاح`)
+  message.channel.sendEmbed(embed);
+	}
+	
+	if (message.content === x41) {
+    if(!message.channel.guild) return;
+		message.member.removeRole(message.guild.roles.find("name", "1"));
+    message.member.removeRole(message.guild.roles.find("name", "2"));
+    message.member.removeRole(message.guild.roles.find("name", "3"));
+    message.member.removeRole(message.guild.roles.find("name", "4"));
+    message.member.removeRole(message.guild.roles.find("name", "5"));
+    message.member.removeRole(message.guild.roles.find("name", "6"));
+    message.member.removeRole(message.guild.roles.find("name", "7"));
+    message.member.removeRole(message.guild.roles.find("name", "8"));
+    message.member.removeRole(message.guild.roles.find("name", "9"));
+     message.member.removeRole(message.guild.roles.find("name", "10"));
+		message.member.removeRole(message.guild.roles.find("name", "11"));
+	message.member.removeRole(message.guild.roles.find("name", "12"));
+	message.member.removeRole(message.guild.roles.find("name", "13"));
+	message.member.removeRole(message.guild.roles.find("name", "14"));
+	message.member.removeRole(message.guild.roles.find("name", "15"));
+	message.member.removeRole(message.guild.roles.find("name", "16"));
+	message.member.removeRole(message.guild.roles.find("name", "17"));
+	message.member.removeRole(message.guild.roles.find("name", "18"));
+	message.member.removeRole(message.guild.roles.find("name", "19"));
+	message.member.removeRole(message.guild.roles.find("name", "20"));
+	message.member.removeRole(message.guild.roles.find("name", "21"));
+	message.member.removeRole(message.guild.roles.find("name", "22"));
+	message.member.removeRole(message.guild.roles.find("name", "23"));
+	message.member.removeRole(message.guild.roles.find("name", "24"));
+	message.member.removeRole(message.guild.roles.find("name", "25"));
+	message.member.removeRole(message.guild.roles.find("name", "26"));
+	message.member.removeRole(message.guild.roles.find("name", "27"));
+	message.member.removeRole(message.guild.roles.find("name", "28"));
+	message.member.removeRole(message.guild.roles.find("name", "29"));
+	message.member.removeRole(message.guild.roles.find("name", "30"));
+	message.member.removeRole(message.guild.roles.find("name", "31"));
+	message.member.removeRole(message.guild.roles.find("name", "32"));
+message.member.removeRole(message.guild.roles.find("name", "33"));
+message.member.removeRole(message.guild.roles.find("name", "34"));
+message.member.removeRole(message.guild.roles.find("name", "35"));
+message.member.removeRole(message.guild.roles.find("name", "36"));
+message.member.removeRole(message.guild.roles.find("name", "37"));
+message.member.removeRole(message.guild.roles.find("name", "38"));
+message.member.removeRole(message.guild.roles.find("name", "39"));
+message.member.removeRole(message.guild.roles.find("name", "40"));
+message.member.addRole(message.guild.roles.find("name", "41"));
+message.member.removeRole(message.guild.roles.find("name", "42"));
+message.member.removeRole(message.guild.roles.find("name", "43"));
+message.member.removeRole(message.guild.roles.find("name", "44"));
+	const embed = new Discord.RichEmbed()
+ 	.setFooter('Requested by '+message.author.username, message.author.avatarURL)
+   .setDescription(`تم تغير اللون بنجاح`)
+  message.channel.sendEmbed(embed);
+	}
+	
+	if (message.content === x42) {
+    if(!message.channel.guild) return;
+		message.member.removeRole(message.guild.roles.find("name", "1"));
+    message.member.removeRole(message.guild.roles.find("name", "2"));
+    message.member.removeRole(message.guild.roles.find("name", "3"));
+    message.member.removeRole(message.guild.roles.find("name", "4"));
+    message.member.removeRole(message.guild.roles.find("name", "5"));
+    message.member.removeRole(message.guild.roles.find("name", "6"));
+    message.member.removeRole(message.guild.roles.find("name", "7"));
+    message.member.removeRole(message.guild.roles.find("name", "8"));
+    message.member.removeRole(message.guild.roles.find("name", "9"));
+     message.member.removeRole(message.guild.roles.find("name", "10"));
+		message.member.removeRole(message.guild.roles.find("name", "11"));
+	message.member.removeRole(message.guild.roles.find("name", "12"));
+	message.member.removeRole(message.guild.roles.find("name", "13"));
+	message.member.removeRole(message.guild.roles.find("name", "14"));
+	message.member.removeRole(message.guild.roles.find("name", "15"));
+	message.member.removeRole(message.guild.roles.find("name", "16"));
+	message.member.removeRole(message.guild.roles.find("name", "17"));
+	message.member.removeRole(message.guild.roles.find("name", "18"));
+	message.member.removeRole(message.guild.roles.find("name", "19"));
+	message.member.removeRole(message.guild.roles.find("name", "20"));
+	message.member.removeRole(message.guild.roles.find("name", "21"));
+	message.member.removeRole(message.guild.roles.find("name", "22"));
+	message.member.removeRole(message.guild.roles.find("name", "23"));
+	message.member.removeRole(message.guild.roles.find("name", "24"));
+	message.member.removeRole(message.guild.roles.find("name", "25"));
+	message.member.removeRole(message.guild.roles.find("name", "26"));
+	message.member.removeRole(message.guild.roles.find("name", "27"));
+	message.member.removeRole(message.guild.roles.find("name", "28"));
+	message.member.removeRole(message.guild.roles.find("name", "29"));
+	message.member.removeRole(message.guild.roles.find("name", "30"));
+	message.member.removeRole(message.guild.roles.find("name", "31"));
+	message.member.removeRole(message.guild.roles.find("name", "32"));
+message.member.removeRole(message.guild.roles.find("name", "33"));
+message.member.removeRole(message.guild.roles.find("name", "34"));
+message.member.removeRole(message.guild.roles.find("name", "35"));
+message.member.removeRole(message.guild.roles.find("name", "36"));
+message.member.removeRole(message.guild.roles.find("name", "37"));
+message.member.removeRole(message.guild.roles.find("name", "38"));
+message.member.removeRole(message.guild.roles.find("name", "39"));
+message.member.removeRole(message.guild.roles.find("name", "40"));
+message.member.removeRole(message.guild.roles.find("name", "41"));
+message.member.addRole(message.guild.roles.find("name", "42"));
+message.member.removeRole(message.guild.roles.find("name", "43"));
+message.member.removeRole(message.guild.roles.find("name", "44"));
+	const embed = new Discord.RichEmbed()
+ 	.setFooter('Requested by '+message.author.username, message.author.avatarURL)
+   .setDescription(`تم تغير اللون بنجاح`)
+  message.channel.sendEmbed(embed);
+	}
+	
+	if (message.content === x43) {
+    if(!message.channel.guild) return;
+		message.member.removeRole(message.guild.roles.find("name", "1"));
+    message.member.removeRole(message.guild.roles.find("name", "2"));
+    message.member.removeRole(message.guild.roles.find("name", "3"));
+    message.member.removeRole(message.guild.roles.find("name", "4"));
+    message.member.removeRole(message.guild.roles.find("name", "5"));
+    message.member.removeRole(message.guild.roles.find("name", "6"));
+    message.member.removeRole(message.guild.roles.find("name", "7"));
+    message.member.removeRole(message.guild.roles.find("name", "8"));
+    message.member.removeRole(message.guild.roles.find("name", "9"));
+     message.member.removeRole(message.guild.roles.find("name", "10"));
+		message.member.removeRole(message.guild.roles.find("name", "11"));
+	message.member.removeRole(message.guild.roles.find("name", "12"));
+	message.member.removeRole(message.guild.roles.find("name", "13"));
+	message.member.removeRole(message.guild.roles.find("name", "14"));
+	message.member.removeRole(message.guild.roles.find("name", "15"));
+	message.member.removeRole(message.guild.roles.find("name", "16"));
+	message.member.removeRole(message.guild.roles.find("name", "17"));
+	message.member.removeRole(message.guild.roles.find("name", "18"));
+	message.member.removeRole(message.guild.roles.find("name", "19"));
+	message.member.removeRole(message.guild.roles.find("name", "20"));
+	message.member.removeRole(message.guild.roles.find("name", "21"));
+	message.member.removeRole(message.guild.roles.find("name", "22"));
+	message.member.removeRole(message.guild.roles.find("name", "23"));
+	message.member.removeRole(message.guild.roles.find("name", "24"));
+	message.member.removeRole(message.guild.roles.find("name", "25"));
+	message.member.removeRole(message.guild.roles.find("name", "26"));
+	message.member.removeRole(message.guild.roles.find("name", "27"));
+	message.member.removeRole(message.guild.roles.find("name", "28"));
+	message.member.removeRole(message.guild.roles.find("name", "29"));
+	message.member.removeRole(message.guild.roles.find("name", "30"));
+	message.member.removeRole(message.guild.roles.find("name", "31"));
+	message.member.removeRole(message.guild.roles.find("name", "32"));
+message.member.removeRole(message.guild.roles.find("name", "33"));
+message.member.removeRole(message.guild.roles.find("name", "34"));
+message.member.removeRole(message.guild.roles.find("name", "35"));
+message.member.removeRole(message.guild.roles.find("name", "36"));
+message.member.removeRole(message.guild.roles.find("name", "37"));
+message.member.removeRole(message.guild.roles.find("name", "38"));
+message.member.removeRole(message.guild.roles.find("name", "39"));
+message.member.removeRole(message.guild.roles.find("name", "40"));
+message.member.removeRole(message.guild.roles.find("name", "41"));
+message.member.removeRole(message.guild.roles.find("name", "42"));
+message.member.addRole(message.guild.roles.find("name", "43"));
+message.member.removeRole(message.guild.roles.find("name", "44"));
+	const embed = new Discord.RichEmbed()
+ 	.setFooter('Requested by '+message.author.username, message.author.avatarURL)
+   .setDescription(`تم تغير اللون بنجاح`)
+  message.channel.sendEmbed(embed);
+	}
+	
+	if (message.content === x44) {
+    if(!message.channel.guild) return;
+		message.member.removeRole(message.guild.roles.find("name", "1"));
+    message.member.removeRole(message.guild.roles.find("name", "2"));
+    message.member.removeRole(message.guild.roles.find("name", "3"));
+    message.member.removeRole(message.guild.roles.find("name", "4"));
+    message.member.removeRole(message.guild.roles.find("name", "5"));
+    message.member.removeRole(message.guild.roles.find("name", "6"));
+    message.member.removeRole(message.guild.roles.find("name", "7"));
+    message.member.removeRole(message.guild.roles.find("name", "8"));
+    message.member.removeRole(message.guild.roles.find("name", "9"));
+     message.member.removeRole(message.guild.roles.find("name", "10"));
+		message.member.removeRole(message.guild.roles.find("name", "11"));
+	message.member.removeRole(message.guild.roles.find("name", "12"));
+	message.member.removeRole(message.guild.roles.find("name", "13"));
+	message.member.removeRole(message.guild.roles.find("name", "14"));
+	message.member.removeRole(message.guild.roles.find("name", "15"));
+	message.member.removeRole(message.guild.roles.find("name", "16"));
+	message.member.removeRole(message.guild.roles.find("name", "17"));
+	message.member.removeRole(message.guild.roles.find("name", "18"));
+	message.member.removeRole(message.guild.roles.find("name", "19"));
+	message.member.removeRole(message.guild.roles.find("name", "20"));
+	message.member.removeRole(message.guild.roles.find("name", "21"));
+	message.member.removeRole(message.guild.roles.find("name", "22"));
+	message.member.removeRole(message.guild.roles.find("name", "23"));
+	message.member.removeRole(message.guild.roles.find("name", "24"));
+	message.member.removeRole(message.guild.roles.find("name", "25"));
+	message.member.removeRole(message.guild.roles.find("name", "26"));
+	message.member.removeRole(message.guild.roles.find("name", "27"));
+	message.member.removeRole(message.guild.roles.find("name", "28"));
+	message.member.removeRole(message.guild.roles.find("name", "29"));
+	message.member.removeRole(message.guild.roles.find("name", "30"));
+	message.member.removeRole(message.guild.roles.find("name", "31"));
+	message.member.removeRole(message.guild.roles.find("name", "32"));
+message.member.removeRole(message.guild.roles.find("name", "33"));
+message.member.removeRole(message.guild.roles.find("name", "34"));
+message.member.removeRole(message.guild.roles.find("name", "35"));
+message.member.removeRole(message.guild.roles.find("name", "36"));
+message.member.removeRole(message.guild.roles.find("name", "37"));
+message.member.removeRole(message.guild.roles.find("name", "38"));
+message.member.removeRole(message.guild.roles.find("name", "39"));
+message.member.removeRole(message.guild.roles.find("name", "40"));
+message.member.removeRole(message.guild.roles.find("name", "41"));
+message.member.removeRole(message.guild.roles.find("name", "42"));
+message.member.removeRole(message.guild.roles.find("name", "43"));
+message.member.addRole(message.guild.roles.find("name", "44"));
+	const embed = new Discord.RichEmbed()
+ 	.setFooter('Requested by '+message.author.username, message.author.avatarURL)
+   .setDescription(`تم تغير اللون بنجاح`)
+  message.channel.sendEmbed(embed);
+	}
+
+	}
+
+
+  if (message.content === 'لون') {
+      if (!message.channel.guild) return;
+    message.channel.sendFile('https://cdn.discordapp.com/attachments/442305546008395787/447014844147826700/36d3ebcb8af4bd420528517d747d5c11.jpg');
+  }
+	
+});
+
+
 
 
 
