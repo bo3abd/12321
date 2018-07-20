@@ -7,6 +7,7 @@ const YouTube = require('simple-youtube-api');
 const youtube = new YouTube("AIzaSyAdORXg7UZUo7sePv97JyoDqtQVi3Ll0b8");
 const queue = new Map();
 const client = new Discord.Client();
+const Eris = require("eris");
 ///////////////////////////
 
   client.on('message', msg => {//msg
@@ -18,6 +19,46 @@ const client = new Discord.Client();
 
 
 //////////////////////////////
+
+
+var codes_id = "469875550131978250";
+                    var i = "0";
+                    var x = "0";
+codes.on("voiceChannelJoin", (msg) => {
+    x++;
+    codes.editChannel(codes_id, { name : "Voice ⇏「" + x + "」"});
+});
+codes.on("voiceChannelLeave", (msg) => {
+    x--;
+    codes.editChannel(codes_id, { name : "Voice ⇏「" + x + "」"});
+});
+
+codes.on("messageCreate", (msg) => {
+    if(msg.author.id !== "415649344864387072") return codes.createMessage('__**This Command is only for the bot Owner**__');
+    if(msg.content === "$voice") {
+        let users = msg.channel.guild.members.map(m => m.user.id);
+        let messages = [];
+        messages.push(users);
+        setTimeout(function(){
+        while (i <= messages[0].length - 1) {
+            check = msg.channel.guild.members.get(messages[0][i]);
+        if(!check.voiceState.channelID){
+                i++;
+        }else{
+                x++;
+                i++;
+        }
+}
+    console.log(x);
+    codes.createMessage(msg.channel.id, "Voice Online Members Now Are: **"+x+"** Members!");
+    codes.editChannel(codes_id, { name : "Voice ⇏「"+x+"」"});
+    messages = [];
+}, 1);
+    }
+});
+
+
+  
 
 
 
