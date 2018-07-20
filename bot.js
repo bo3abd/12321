@@ -467,7 +467,6 @@ message.channel.send(`${user} عدد دعوات هو${inviteCount} .`);
 
 
 
-
 let profile = JSON.parse(fs.readFileSync("./profile.json", "utf8"))
 client.on("message", message => {
   if (message.author.bot) return;
@@ -503,36 +502,36 @@ message.channel.send(`** ${men.username}, :credit_card: balance` + " is `" + `${
  message.channel.send(`** ${message.author.username}, your :credit_card: balance` + " is `" + `${profile[message.author.id].credits}$` + "`.**")
 }
 }
-if(message.content.startsWith("هديه")) {
+if(message.content.startsWith("$هديه")) {
 
 
   if(profile[message.author.id].lastDaily != moment().format('day')) {
    profile[message.author.id].lastDaily = moment().format('day')
    profile[message.author.id].credits += 310
-    message.channel.send(`**${message.author.username} you collect your \`310\` :dollar: daily pounds**`)
+    message.channel.send(`**${message.author.username}  \`310\` :dollar: حاصلك اليومي**`)
 } else {
-    message.channel.send(`**:stopwatch: | ${message.author.username}, your daily :yen: credits refreshes ${moment().endOf('day').fromNow()}**`)
+    message.channel.send(`**:stopwatch: | ${message.author.username}, خلاص اخذت فلوسك وش تبي بعد  :yen: بفكر اعطيك بعد${moment().endOf('day').fromNow()}**`)
 }
 }
 let cont = message.content.slice(prefix.length).split(" ");
 let args = cont.slice(2);
 let sender = message.author
-if(message.content.startsWith('تحويل')) {
+if(message.content.startsWith('$تحويل')) {
           if (!args[0]) {
-            message.channel.send(`**Usage: ${prefix}trans @someone amount**`);
+            message.channel.send(`**طريقت الاستخدام : تحويل @سعيد الحظ المبلغ**`);
          return;
            }
         // We should also make sure that args[0] is a number
         if (isNaN(args[0])) {
-            message.channel.send(`**Usage: ${prefix}trans @someone amount**`);
+            message.channel.send(`**طريقت الاستخدام : تحويل @سعيد الحظ المبلغ**`);
             return; // Remember to return if you are sending an error message! So the rest of the code doesn't run.
              }
-             if(profile[message.author.id].credits < args[0]) return message.channel.send("**Your Credits is not enough  that**")
-if(args[0].startsWith("-")) return  message.channel.send('**!! I Cant Do it**');
+             if(profile[message.author.id].credits < args[0]) return message.channel.send("**فلوسك ما تكفي**")
+if(args[0].startsWith("-")) return  message.channel.send('**!! لا اقدر**');
 				 let defineduser = '';
             let firstMentioned = message.mentions.users.first();
             defineduser = (firstMentioned)
-            if (!defineduser) return message.channel.send(`**Usage: ${prefix}trans @someone amount**`);
+            if (!defineduser) return message.channel.send(`**طريقت الاستخدام : تحويل @سعيد الحظ المبلغ**`);
             if(defineduser.id === message.author.id) return message.channel.send("***Transfering to your self hah ?!***")
             var mentionned = message.mentions.users.first();
 if (!profile[sender.id]) profile[sender.id] = {}
@@ -558,29 +557,12 @@ var x2 = ['5587' ,' 9978' , '3785' , '7734' , '9864' , '7681' , '3758' , '7834' 
       profile[defineduser.id].credits += (+args[0]);
       profile[sender.id].credits += (-args[0]);
       let mariam = message.author.username
-message.channel.send(`**:moneybag: | ${message.author.username}, has transferrerd ` + "`" + args[0] + "$` to " + `<@${defineduser.id}>**`)
-mentionned.send(` :credit_card: | Transfer Receipt \`\`\`You have received ${args[0]} from user ${message.author.username} ; (ID (${message.author.id})\`\`\``);
+message.channel.send(`**:moneybag: | ${message.author.username}, تم تحويل ` + "`" + args[0] + "$` to " + `<@${defineduser.id}>**`)
+mentionned.send(` :credit_card: | الاصال \`\`\`You have received ${args[0]} from user ${message.author.username} ; (ID (${message.author.id})\`\`\``);
                message.channel.sendEmbed(embed)
         })
         })
         
-		
-
-
-
-
-}
-
-      });
-
-
-
-
-
-
-
-
-
 
 
 
