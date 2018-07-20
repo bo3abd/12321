@@ -105,7 +105,7 @@ message.delete();
 
 	 
 	client.on('message', message => {
-    if (message.content.startsWith("رابط")) {
+    if (message.content.startsWith("098uuu")) {
 
   message.channel.createInvite({
         thing: true,
