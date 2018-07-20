@@ -497,9 +497,9 @@ if (message.content.startsWith('$نقاطي')) {
  };
   }
   if(men) {
-message.channel.send(`** ${men.username}, راتبك:credit_card: ` + "هو" + `${profile[men.id].credits}$` + "`.**")
+message.channel.send(`** ${men.username}, راتبك:credit_card: ` + "هو  `" + `${profile[men.id].credits}$` + "`.**")
 } else {
- message.channel.send(`** ${message.author.username}, راتبك:credit_card:` + "هو" + `${profile[message.author.id].credits}$` + "`.**")
+ message.channel.send(`** ${message.author.username}, راتبك:credit_card:` + "هو  `" + `${profile[message.author.id].credits}$` + "`.**")
 }
 }
 if(message.content.startsWith("$راتب")) {
