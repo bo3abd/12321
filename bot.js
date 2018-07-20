@@ -563,6 +563,7 @@ mentionned.send(` :credit_card: | الاصال \`\`\`You have received ${args[0]
         })
         })
         
+	});
 
 
 
