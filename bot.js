@@ -515,8 +515,8 @@ if(message.content.startsWith(prefix + "راتب")) {
 
   if(profile[message.author.id].lastDaily != moment().format('day')) {
    profile[message.author.id].lastDaily = moment().format('day')
-   profile[message.author.id].credits += 10000
-    message.channel.send(`**${message.author.username} ``تم اعطاك``  \`10000\` :dollar: **`)
+   profile[message.author.id].credits += 310
+    message.channel.send(`**${message.author.username} ``تم اعطاك``  \`310\` :dollar: **`)
 } else {
     message.channel.send(`**:stopwatch: | ${message.author.username}, لايمكن اخذ الراتب الابعد :yen:  ${moment().endOf('day').fromNow()}**`)
 }
