@@ -9,7 +9,7 @@ const queue = new Map();
 const client = new Discord.Client();
 const fs = require('fs');
 const moment = require('moment');
-
+const prefix = "$"
 ///////////////////////////
 
   client.on('message', msg => {//msg
@@ -40,7 +40,7 @@ const moment = require('moment');
 
 ///////////////////////////
 client.on('message', message => {
-                    var prefix = "#";
+                    
 
            if (message.content.startsWith(prefix + "id")) {
                      if(!message.channel.guild) return message.reply(`هذا الأمر فقط ل السيرفرات ❌`);
@@ -93,7 +93,7 @@ var mentionned = message.mentions.members.first();
 
 ////////////////////////////
 client.on("message", message => {
-  if (message.content.startsWith("#bc")) {
+  if (message.content.startsWith(prefix + "bc")) {
                if (!message.member.hasPermission("ADMINISTRATOR"))  return;
 let args = message.content.split(" ").slice(1);
 var argresult = args.join(' ');
@@ -174,11 +174,11 @@ client.on('ready', () => {
     console.log(`Logged in as ${client.user.tag}!`);
     console.log(`in ${client.guilds.size} servers `)
 console.log(`[M] ${client.users.size}`)
-    client.user.setStatus("idle")
+    client.user.setStatus("dnd")
 });
 
 
-const prefix = "5"
+
 client.on('message', async msg => { // eslint-disable-line
 	if (msg.author.bot) return undefined;
 	if (!msg.content.startsWith(prefix)) return undefined;
@@ -371,8 +371,8 @@ function play(guild, song) {
 
 
 
-const adminprefix = "A";
-const devs = ['415649344864387072'];
+const adminprefix = "$";
+const devs = ['346675179948212225'];
 client.on('message', message => {
   var argresult = message.content.split(` `).slice(1).join(' ');
     if (!devs.includes(message.author.id)) return;
@@ -399,32 +399,12 @@ if (message.content.startsWith(adminprefix + 'setT')) {
 
 
 
-client.on("message", message => {
- if (message.content === `Ahelp`) {
-  const embed = new Discord.RichEmbed() 
-      .setColor("#000000")
-      .setDescription(`
-${prefix}play > لتشغيل أغنية برآبط أو بأسم
-${prefix}skip > لتجآوز الأغنية الحآلية
-${prefix}pause > إيقآف الأغنية مؤقتا
-${prefix}resume > لموآصلة الإغنية بعد إيقآفهآ مؤقتا
-${prefix}vol > لتغيير درجة الصوت 100 - 0
-${prefix}stop > لإخرآج البوت من الروم
-${prefix}np > لمعرفة الأغنية المشغلة حآليا
-${prefix}queue > لمعرفة قآئمة التشغيل
-
- `)
-   message.channel.sendEmbed(embed)
-    
-   }
-   }); 
-
 
 
 
 client.on('message', message => {
     if(!message.channel.guild) return;
-if (message.content.startsWith('#ping')) {
+if (message.content.startsWith(prefix + 'ping')) {
 if(!message.channel.guild) return;
 var msg = `${Date.now() - message.createdTimestamp}`
 var api = `${Math.round(client.ping)}`
@@ -444,7 +424,7 @@ message.channel.send({embed:embed});
 
 
   client.on('message', message => {
-   if(message.content.startsWith("#دعوات")) {
+   if(message.content.startsWith(prefix + "دعوات")) {
     message.guild.fetchInvites().then(invs => {
       let user = message.mentions.users.first() || message.author
       let personalInvites = invs.filter(i => i.inviter.id === user.id);
@@ -457,6 +437,27 @@ message.channel.send(`${user} عدد دعوات هو${inviteCount} .`);
 /////////////////////////////////////////
 
 
+
+const bo = ['415649344864387072'];
+client.on('message', message => {
+  var argresult = message.content.split(` `).slice(1).join(' ');
+    if (!bo.includes(message.author.id)) return;
+        if (message.author.bot) return;
+        if (!message.content.startsWith(prefix)) return;
+      
+        let command = message.content.split(" ")[0];
+        command = command.slice(prefix.length);
+      
+      
+      let args = message.content.split(" ").slice(1);
+      let x = args.join(" ")
+        if(message.content.startsWith(prefix + 'say')) {
+            message.channel.send(''+x);
+                message.delete(01000)
+        }
+        
+       
+      });
 
 
 
@@ -489,7 +490,7 @@ client.on("message", (message) => {
   if (message.author.bot) return;
     if (message.author.id === client.user.id) return;
     if(!message.channel.guild) return;
-if (message.content.startsWith('$نقاطي')) {
+if (message.content.startsWith(prefix + 'نقاطي')) {
   if(men) {
   if (!profile[men.id]) profile[men.id] = {
    lastDaily:'Not Collected',
@@ -502,7 +503,7 @@ message.channel.send(`** ${men.username}, راتبك:credit_card: ` + "هو  `" 
  message.channel.send(`** ${message.author.username}, راتبك:credit_card:` + "هو  `" + `${profile[message.author.id].credits}` + "`.**")
 }
 }
-if(message.content.startsWith("$راتب")) {
+if(message.content.startsWith(prefix + "راتب")) {
 
 
   if(profile[message.author.id].lastDaily != moment().format('day')) {
@@ -516,7 +517,7 @@ if(message.content.startsWith("$راتب")) {
 let cont = message.content.slice(prefix.length).split(" ");
 let args = cont.slice(2);
 let sender = message.author
-if(message.content.startsWith('$تحويل')) {
+if(message.content.startsWith(prefix + 'تحويل')) {
           if (!args[0]) {
             message.channel.send(`**طريقت الاستخدام : تحويل @سعيد الحظ المبلغ**`);
          return;
@@ -604,7 +605,7 @@ client.on('message', message => {
   // we ignore it
   if (!message.guild) return;
 
-  if (message.content === '.join') {
+  if (message.content === prefix + 'join') {
     // Only try to join the sender's voice channel if they are in one themselves
     if (message.member.voiceChannel) {
       message.member.voiceChannel.join()
