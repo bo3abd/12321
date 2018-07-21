@@ -475,7 +475,7 @@ client.on('message', message => {
 
 //////////////////////////////////////////////////////
 
-	const moment = require('moment');
+
 let profile = JSON.parse(fs.readFileSync("./profile.json", "utf8"))
 client.on("message", message => {
   if (message.author.bot) return;
