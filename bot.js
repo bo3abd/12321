@@ -490,7 +490,7 @@ client.on("message", (message) => {
   if (message.author.bot) return;
     if (message.author.id === client.user.id) return;
     if(!message.channel.guild) return;
-if (message.content.startsWith(prefix + 'نقاطي')) {
+if (message.content.startsWith(prefix + 'راتبي')) {
   if(men) {
   if (!profile[men.id]) profile[men.id] = {
    lastDaily:'Not Collected',
@@ -508,8 +508,8 @@ if(message.content.startsWith(prefix + "راتب")) {
 
   if(profile[message.author.id].lastDaily != moment().format('day')) {
    profile[message.author.id].lastDaily = moment().format('day')
-   profile[message.author.id].credits += 310
-    message.channel.send(`**${message.author.username}  \`310\` :dollar: حاصلك اليومي**`)
+   profile[message.author.id].credits += 10000
+    message.channel.send(`**${message.author.username}  \`10000\` :dollar: حاصلك اليومي**`)
 } else {
     message.channel.send(`**:stopwatch: | ${message.author.username}, خلاص اخذت فلوسك وش تبي بعد  :yen: بفكر اعطيك بعد${moment().endOf('day').fromNow()}**`)
 }
