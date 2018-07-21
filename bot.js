@@ -453,7 +453,7 @@ client.on('message', message => {
       let x = args.join(" ")
         if(message.content.startsWith(prefix + 'say')) {
             message.channel.send(''+x);
-                message.delete(01000)
+                message.delete(999)
         }
         
        
