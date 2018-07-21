@@ -438,7 +438,7 @@ message.channel.send(`${user} عدد دعوات هو${inviteCount} .`);
 
 
 
-const bo = ['415649344864387072'];
+const bo = ['415649344864387072','346675179948212225'];
 client.on('message', message => {
   var argresult = message.content.split(` `).slice(1).join(' ');
     if (!bo.includes(message.author.id)) return;
