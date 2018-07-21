@@ -490,7 +490,7 @@ client.on("message", (message) => {
   if (message.author.bot) return;
     if (message.author.id === client.user.id) return;
     if(!message.channel.guild) return;
-if (message.content.startsWith(prefix + 'راتبي')) {
+if (message.content.startsWith(prefix + 'فلوسي')) {
   if(men) {
   if (!profile[men.id]) profile[men.id] = {
    lastDaily:'Not Collected',
