@@ -516,8 +516,8 @@ if(message.content.startsWith(prefix + "راتب")) {
 
   if(profile[message.author.id].lastDaily != moment().format('day')) {
    profile[message.author.id].lastDaily = moment().format('day')
-   profile[message.author.id].credits += 310
-    message.channel.send(`**${message.author.username} you collect your \`310\` :dollar: daily pounds**`)
+   profile[message.author.id].credits += 10000
+    message.channel.send(`**${message.author.username} you collect your \`10000\` :dollar: daily pounds**`)
 } else {
     message.channel.send(`**:stopwatch: | ${message.author.username}, your daily :yen: credits refreshes ${moment().endOf('day').fromNow()}**`)
 }
@@ -544,7 +544,7 @@ if(args[0].startsWith("-")) return  message.channel.send('**!! I Cant Do it**');
             if(defineduser.id === message.author.id) return message.channel.send("***Transfering to your self hah ?!***")
             var mentionned = message.mentions.users.first();
 if (!profile[sender.id]) profile[sender.id] = {}
-if (!profile[sender.id].credits) profile[sender.id].credits = 310;
+if (!profile[sender.id].credits) profile[sender.id].credits = 10000;
 fs.writeFile('./profile.json', JSON.stringify(profile), (err) => {
 if (err) console.error(err);
 })
