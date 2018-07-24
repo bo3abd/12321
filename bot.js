@@ -13,12 +13,6 @@ const prefix = "$"
 ///////////////////////////
 
   client.on('message', msg => {//msg
-    if (msg.content === 'الوان') {
-      msg.channel.send({file : "https://cdn.discordapp.com/attachments/456691922300436485/468904404565753877/colors.png"})
-    }
-  });;
-  
-  client.on('message', msg => {//msg
     if (msg.content === 'ت1') {
       msg.channel.send({file : "https://cdn.discordapp.com/attachments/453784172985712652/469908726229499904/random-lines-purple-geometric-shapes-background_ryp-ysybl_thumbnail-full01.png"})
     }
