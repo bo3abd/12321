@@ -17,7 +17,40 @@ const prefix = "$"
       msg.channel.send({file : "https://cdn.discordapp.com/attachments/453784172985712652/469908726229499904/random-lines-purple-geometric-shapes-background_ryp-ysybl_thumbnail-full01.png"})
     }
   });;
-  
+  ///////////////////////////
+
+lient.on('message', message => {
+    var prefix = "#"
+     let command = message.content.split(" ")[0];
+   command = command.slice(prefix.length);
+ 
+   let args = message.content.split(" ").slice(1);
+ 
+ 
+ if(command == "ارسم") {
+     var Canvas = require('canvas')
+   , Image = new Canvas.Image
+   , canvas = new Canvas(450, 170)
+   , ctx = canvas.getContext('2d');
+   ctx.font = '30px Impact';
+   let args = message.content.split(" ").slice(1);
+   
+ Image.src = canvas.toBuffer();
+ 
+     console.log(Image);
+ ctx.drawImage(Image, 0, 0, Image.width / 470, Image.height / 170);
+ ctx.fillText(args.join("  "),110, 70);
+ 
+ 
+ ctx.beginPath();
+ ctx.lineTo(50, 102);
+ ctx.stroke();
+ 
+ message.channel.sendFile(canvas.toBuffer());
+ }
+ 
+ });
+
 
 
 //////////////////////////////
