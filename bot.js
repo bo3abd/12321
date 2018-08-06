@@ -12,12 +12,50 @@ const moment = require('moment');
 const prefix = "$"
 ///////////////////////////
 
-  client.on('message', msg => {//msg
-    if (msg.content === 'ت1') {
-      msg.channel.send({file : "https://cdn.discordapp.com/attachments/453784172985712652/469908726229499904/random-lines-purple-geometric-shapes-background_ryp-ysybl_thumbnail-full01.png"})
+var userData = {};
+client.on("message", function(message){
+if (message.content.startsWith("#rank")) {
+    if (!userData[message.author.id]) {
+        userData[message.author.id] = {Money:0,Xp:0,Level:0}
     }
-  });;
-  ///////////////////////////
+     var mentionned = message.mentions.users.first();
+ 
+      var epic;
+      if(mentionned){
+          var epic = mentionned;
+      } else {
+          var epic = message.author;
+ 
+      }
+ 
+   
+    var CulLevel = Math.floor(0.25 * Math.sqrt(userData[message.author.id].Xp +1));
+    if (CulLevel > userData[message.author.id].Level) {userData[message.author.id].Level +=CulLevel}
+    let epic = new Discord.RichEmbed()
+    .setColor("Random")
+    .addField("الأسم :", message.author.tag)
+    .addField("الليفل :", userData[message.author.id].Level)
+    .addField("الأكس بي :",Math.floor(userData[message.author.id].Xp))
+    message.channel.send(epic);
+}
+if (!userData[message.author.id]) {
+    userData[message.author.id] = {Money:0,Xp:0,Level:0,Like:0}
+    }
+ 
+userData[message.author.id].Xp+= 0.25;
+userData[message.author.id].Money+= 0.25;
+ 
+});
+/////////////////////////////////
+/////////////////////////////////
+/////////////////////////////////
+
+
+
+
+
+
+
 
 
 //////////////////////////////
@@ -147,7 +185,7 @@ var mentionned = message.mentions.members.first();
 
 
 
-//////////////////////-------------
+//////////////////////
 
 
 
@@ -386,8 +424,8 @@ function play(guild, song) {
 
 
 
-const adminprefix = "$";
-const devs = ['346675179948212225'];
+const adminprefix = "!";
+const devs = ['472052319006228509','471671455390629908'];
 client.on('message', message => {
   var argresult = message.content.split(` `).slice(1).join(' ');
     if (!devs.includes(message.author.id)) return;
