@@ -20,18 +20,18 @@ if (message.content.startsWith("#rank")) {
     }
      var mentionned = message.mentions.users.first();
  
-      var epic;
+      var bo;
       if(mentionned){
-          var epic = mentionned;
+          var bo = mentionned;
       } else {
-          var epic = message.author;
+          var bo = message.author;
  
       }
  
    
     var CulLevel = Math.floor(0.25 * Math.sqrt(userData[message.author.id].Xp +1));
     if (CulLevel > userData[message.author.id].Level) {userData[message.author.id].Level +=CulLevel}
-    let epic = new Discord.RichEmbed()
+    let bo = new Discord.RichEmbed()
     .setColor("Random")
     .addField("الأسم :", message.author.tag)
     .addField("الليفل :", userData[message.author.id].Level)
