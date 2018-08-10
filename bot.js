@@ -197,7 +197,7 @@ console.log(`[M] ${client.users.size}`)
 });
 
 
-
+const prefix = "$"
 client.on('message', async msg => { // eslint-disable-line
 	if (msg.author.bot) return undefined;
 	if (!msg.content.startsWith(prefix)) return undefined;
@@ -247,7 +247,7 @@ client.on('message', async msg => { // eslint-disable-line
 			        .setDescription(`**الرجآء من حضرتك إختيآر رقم المقطع** :
 ${videos.map(video2 => `[**${++index} **] \`${video2.title}\``).join('\n')}`)
 
-					.setFooter("-")
+					.setFooter("The Miracle")
 					msg.channel.sendEmbed(embed1).then(message =>{message.delete(20000)})
 					
 					// eslint-disable-next-line max-depth
@@ -340,7 +340,7 @@ async function handleVideo(video, msg, voiceChannel, playlist = false) {
 			voiceChannel: voiceChannel,
 			connection: null,
 			songs: [],
-			volume: 5,
+			volume: 1,
 			playing: true
 		};
 		queue.set(msg.guild.id, queueConstruct);
@@ -388,6 +388,8 @@ function play(guild, song) {
 	serverQueue.textChannel.send(`بدء تشغيل : **${song.title}**`);
 }
 
+);
+
 
 
 const adminprefix = "!";
@@ -415,7 +417,6 @@ if (message.content.startsWith(adminprefix + 'setT')) {
 }
 
 });
-
 
 
 
