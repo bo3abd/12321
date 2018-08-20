@@ -6,6 +6,7 @@ const fetchVideoInfo = require('youtube-info');
 const YouTube = require('simple-youtube-api');
 const youtube = new YouTube("AIzaSyAdORXg7UZUo7sePv97JyoDqtQVi3Ll0b8");
 const queue = new Map();
+const Canvas = require("canvas")
 const client = new Discord.Client();
 const fs = require('fs');
 const moment = require('moment');
@@ -1509,8 +1510,7 @@ setInterval(function(){})
 let sw = JSON.parse(fs.readFileSync("./setWlc.json", "UTF8"))
  
     client.on('message', message => {
-const Canvas = require("canvas") // npm i canvas
-const fs = require("fs") // npm i fs
+
  
         let mothed = ['text', 'embed', 'image'];
         let sets = message.content.split(" ").slice(1).join(" ")
