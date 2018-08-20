@@ -9,7 +9,7 @@ const queue = new Map();
 const client = new Discord.Client();
 const fs = require('fs');
 const moment = require('moment');
-const prefix = "$"
+const prefix = "-"
 ///////////////////////////
 
 /////////////////////////////////
@@ -392,8 +392,8 @@ function play(guild, song) {
 
 
 
-const adminprefix = "!";
-const devs = ['472052319006228509','471671455390629908'];
+const adminprefix = "-";
+const devs = ['472052319006228509','222105775609348099'];
 client.on('message', message => {
   var argresult = message.content.split(` `).slice(1).join(' ');
     if (!devs.includes(message.author.id)) return;
@@ -411,8 +411,8 @@ return message.reply("**لا يمكنك تغيير الاسم يجب عليك ا
 client.user.setAvatar(argresult);
   message.channel.sendMessage(`**${argresult}** : تم تغير صورة البوت`);
       } else     
-if (message.content.startsWith(adminprefix + 'setT')) {
-  client.user.setGame(argresult, "https://www.twitch.tv/idk");
+if (message.content.startsWith(adminprefix + 'sets')) {
+  client.user.setGame(argresult, "https://www.twitch.tv/Deep");
     message.channel.sendMessage(`**تم تغيير تويتش البوت إلى  ${argresult}**`)
 }
 
