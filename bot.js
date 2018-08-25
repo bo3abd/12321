@@ -253,7 +253,7 @@ client.on('message',async Epic => {
       SPEAK: false
     });
     setInterval(() => {
-      c.setName(` Online :  ${Epic.guild.members.filter(m => m.voiceChannel).size} .`)
+      c.setName(` Deep [${Epic.guild.members.filter(m => m.voiceChannel).size} ].`)
     },1000);
   });
   }
