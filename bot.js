@@ -34,7 +34,7 @@ client.on("ready", () => {
     })
 })
 client.on("guildMemberAdd", (member) => {
-    let channel = member.guild.channels.find('name', 'text');
+    let channel = member.guild.channels.find('name', 'log');
     if (!channel) {
         console.log("!channel fails");
         return;
