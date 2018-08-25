@@ -204,6 +204,103 @@ client.on('message', message => {
 
 
 
+Client.on("message", message => {
+
+ 
+            var args = message.content.substring(prefix.length).split(" ");
+            if (message.content.startsWith("-obc")) {
+                         if (!message.member.hasPermission("ADMINISTRATOR"))  return;
+ if (!args[1]) {
+                                let embed3 = new Discord.RichEmbed()
+                                .setDescription(":white_check_mark: | تم ارسال للكل رساله فارغه")
+                                .setColor("#FF0000")
+                                message.channel.sendEmbed(embed3);
+                            } else {
+
+                            let embed4 = new Discord.RichEmbed()
+                                                            .setDescription(':white_check_mark: | تم ارسال للكل الرساله !')
+                                                            .setColor("#008000")
+                                message.channel.sendEmbed(embed4);
+                                                      message.delete();
+                            }
+                          }
+});
+
+
+
+////////////////////////////////////////////////////////
+
+
+
+
+
+
+
+
+client.on('message', message => {    
+    var p = "-";
+            if (message.content.startsWith(p + "cto")) {
+                if(!message.channel.guild) return;
+                if (!message.member.hasPermission("MANAGE_CHANNEL"))  return;
+      var a= message.content.split(' ').slice(1).join("  ");
+      if (!a) return message.reply("اكتب كلام لوضعه في التوبيك!")
+      message.channel.setTopic(`${a}`)
+      .then(newChannel => message.channel.send(`تم تغيير التوبيك لـ **${a}**`))
+      .catch(console.error);
+            }
+        });
+
+
+
+
+
+
+///////////////////////////////////////////////////////////////////
+
+
+
+
+
+
+
+client.on('message', message => {
+    if (message.author.id === client.user.id) return;
+    if (message.guild) {
+   let embed = new Discord.RichEmbed()
+    let args = message.content.split(' ').slice(1).join(' ');
+if(message.content.split(' ')[0] == prefix + 'bcm') {
+    if (!args[1]) {
+message.channel.send("**.bc <message>**");
+return;
+}
+        message.guild.members.forEach(m => {
+   if(!message.member.hasPermission('ADMINISTRATOR')) return;
+            var bc = new Discord.RichEmbed()
+            .setAuthor(message.author.username, message.author.avatarURL)
+            .addField('** الـسيرفر**', `${message.guild.name}`,true)
+            .addField(' **الـمرسل **', `${message.author.username}#${message.author.discriminator}`,true)
+            .addField(' **الرسالة** ', args)
+            .setThumbnail(message.guild.iconURL)
+            .setColor('RANDOM')
+            m.send(`${m}`,{embed: bc});
+        });
+        const AziRo = new Discord.RichEmbed()
+        .setAuthor(message.author.username, message.author.avatarURL)   
+        .setTitle('✔️ | جاري ارسال رسالتك ') 
+        .addBlankField(true)
+        .addField('👥 | عدد الاعضاء المرسل لهم ', message.guild.memberCount , true)        
+        .addField('📋| الرسالة ', args)
+        .setColor('RANDOM')  
+        message.channel.sendEmbed(AziRo);          
+    }
+    } else {
+        return;
+    }
+});
+
+
+
+
 
 
 
